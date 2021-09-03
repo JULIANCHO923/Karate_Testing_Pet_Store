@@ -1,0 +1,769 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+    <s:Header>
+        <a:Action s:mustUnderstand="1">http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccionResponse</a:Action>
+    </s:Header>
+    <s:Body>
+        <ConsultarInformacionDireccionResponse xmlns="http://epm.com.co/aguas/hidro/contratoservicios">
+            <ConsultarInformacionDireccionResult xmlns:b="http://epm.com.co/aguas/hidro/contratodatos" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <b:Mensajes/>
+                <b:Valor i:nil="true"/>
+                <b:NumeroTotalRegistros>4</b:NumeroTotalRegistros>
+                <b:EsPuntoGeometriaValido>true</b:EsPuntoGeometriaValido>
+                <b:Llamadas i:nil="true"/>
+                <b:NumeroTotalRegistrosSolicitudes>0</b:NumeroTotalRegistrosSolicitudes>
+                <b:NumeroTotalRegistrosSolicitudesAlrededor>0</b:NumeroTotalRegistrosSolicitudesAlrededor>
+                <b:Solicitudes>
+                    <b:Solicitud>
+                        <b:ActividadCerradaCancelada>false</b:ActividadCerradaCancelada>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaLluvia i:nil="true"/>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaPotable i:nil="true"/>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaResidual i:nil="true"/>
+                        <b:ArchivosAdjuntos i:nil="true"/>
+                        <b:AreaGeografica i:nil="true"/>
+                        <b:AtributosSolicitud i:nil="true"/>
+                        <b:Barrio i:nil="true"/>
+                        <b:CallIdMUA i:nil="true"/>
+                        <b:CambioEstado i:nil="true"/>
+                        <b:Canal>Ninguno</b:Canal>
+                        <b:CausaComplementariaValida>false</b:CausaComplementariaValida>
+                        <b:CausaEstado i:nil="true"/>
+                        <b:CausaEstadoTieneCausasComplementarias>false</b:CausaEstadoTieneCausasComplementarias>
+                        <b:CausaEstadoValida>false</b:CausaEstadoValida>
+                        <b:CausaEvento i:nil="true"/>
+                        <b:CausasComplementarias i:nil="true"/>
+                        <b:CircuitoCuenca i:nil="true"/>
+                        <b:Ciudad i:nil="true"/>
+                        <b:CiudadCobro i:nil="true"/>
+                        <b:CobroInversionEmpresa i:nil="true"/>
+                        <b:CobroInversionTerceros i:nil="true"/>
+                        <b:CodigoUnicoDireccion>0</b:CodigoUnicoDireccion>
+                        <b:CodigoUnicoDireccionCobro>0</b:CodigoUnicoDireccionCobro>
+                        <b:Convenio i:nil="true"/>
+                        <b:CorreoElectronicoContacto i:nil="true"/>
+                        <b:CrearPortafolioCliente>false</b:CrearPortafolioCliente>
+                        <b:CumpleTiempoCambiarAbiertaCerrada>false</b:CumpleTiempoCambiarAbiertaCerrada>
+                        <b:CumpleTiempoCambiarEnTramiteCancelada>false</b:CumpleTiempoCambiarEnTramiteCancelada>
+                        <b:CumpleTiempoCambiarPendienteCancelada>false</b:CumpleTiempoCambiarPendienteCancelada>
+                        <b:Direccion>
+                            <b:CicloLectura i:nil="true"/>
+                            <b:CicloReparto i:nil="true"/>
+                            <b:CodigoUnico i:nil="true"/>
+                            <b:CoordenadaX>0</b:CoordenadaX>
+                            <b:CoordenadaY>0</b:CoordenadaY>
+                            <b:CorreriaLectura i:nil="true"/>
+                            <b:CorreriaReparto i:nil="true"/>
+                            <b:DireccionEstandarizada>CL 39 CR 90 -40</b:DireccionEstandarizada>
+                            <b:EsDireccioRural>false</b:EsDireccioRural>
+                            <b:Estado i:nil="true"/>
+                            <b:Estrato i:nil="true"/>
+                            <b:Geometria i:nil="true"/>
+                            <b:Pagina i:nil="true"/>
+                        </b:Direccion>
+                        <b:DireccionCobro i:nil="true"/>
+                        <b:ElementoRed i:nil="true"/>
+                        <b:Empresa i:nil="true"/>
+                        <b:EnviarCorreoContacto>false</b:EnviarCorreoContacto>
+                        <b:EnviarCorreoLiderGrupo>false</b:EnviarCorreoLiderGrupo>
+                        <b:EsDireccionCobroRural>false</b:EsDireccionCobroRural>
+                        <b:EsDireccionRural>false</b:EsDireccionRural>
+                        <b:EsSolicitudAgendada>false</b:EsSolicitudAgendada>
+                        <b:EsSolicitudAreaGeografica>false</b:EsSolicitudAreaGeografica>
+                        <b:Estado>
+                            <b:Codigo i:nil="true"/>
+                            <b:Jerarquia i:nil="true"/>
+                            <b:Nombre>Pendiente</b:Nombre>
+                            <b:Observacion i:nil="true"/>
+                        </b:Estado>
+                        <b:EstadoActividadSeleccionada>Ninguno</b:EstadoActividadSeleccionada>
+                        <b:EstadoFSM i:nil="true"/>
+                        <b:EstadoFacturacion i:nil="true"/>
+                        <b:ExistePortafolioHidro>false</b:ExistePortafolioHidro>
+                        <b:ExistePortafolioOpen>false</b:ExistePortafolioOpen>
+                        <b:ExisteRespuestaCRM>false</b:ExisteRespuestaCRM>
+                        <b:ExternalRefIdMUA i:nil="true"/>
+                        <b:FechaCreacion>2021-03-12T11:16:12</b:FechaCreacion>
+                        <b:FechaEstadoSolicitud>0001-01-01T00:00:00</b:FechaEstadoSolicitud>
+                        <b:FechaProgramacionAgendamientoMUA i:nil="true"/>
+                        <b:FechaProgramacionOrdenes i:nil="true"/>
+                        <b:Geometria i:nil="true"/>
+                        <b:GeometriaCobro i:nil="true"/>
+                        <b:IdAsociacionArchivosAdjuntos i:nil="true"/>
+                        <b:IdLlamadaContacto i:nil="true"/>
+                        <b:IdSolicitud>3359202</b:IdSolicitud>
+                        <b:IdSolicitudOrigen i:nil="true"/>
+                        <b:IdSolicitudOrigenInicial i:nil="true"/>
+                        <b:IdentificacionCliente i:nil="true"/>
+                        <b:InconsistenciasGeneracionMasiva i:nil="true"/>
+                        <b:Llamadas i:nil="true"/>
+                        <b:ModuloOrigen i:nil="true"/>
+                        <b:Motivo>
+                            <b:Canales i:nil="true"/>
+                            <b:Guion i:nil="true"/>
+                            <b:IdEmpresa>0</b:IdEmpresa>
+                            <b:IdMotivo>0</b:IdMotivo>
+                            <b:Nombre>Verificar continuidad del servicio</b:Nombre>
+                        </b:Motivo>
+                        <b:MotivoCambioEstado i:nil="true"/>
+                        <b:NombreContacto i:nil="true"/>
+                        <b:NumeroArchivosAdjuntos i:nil="true"/>
+                        <b:NumeroLLamadas>0</b:NumeroLLamadas>
+                        <b:NumeroObservaciones i:nil="true"/>
+                        <b:ObservacionNueva i:nil="true"/>
+                        <b:Observaciones i:nil="true"/>
+                        <b:OrdenesTrabajo i:nil="true"/>
+                        <b:Portafolio i:nil="true"/>
+                        <b:ProvieneDescargueUrbanizadores i:nil="true"/>
+                        <b:PuedeCambiarDeEstado>false</b:PuedeCambiarDeEstado>
+                        <b:Requisitos i:nil="true"/>
+                        <b:SeNotificoASistemaExterno>false</b:SeNotificoASistemaExterno>
+                        <b:SecuenciaMUA i:nil="true"/>
+                        <b:ServicioSuscritoSinPPS>0</b:ServicioSuscritoSinPPS>
+                        <b:SistemaOrigen>Ninguno</b:SistemaOrigen>
+                        <b:SitioInteres>
+                            <b:Categoria i:nil="true"/>
+                            <b:Ciudad i:nil="true"/>
+                            <b:Codigo i:nil="true"/>
+                            <b:Geometria i:nil="true"/>
+                            <b:IdSitioInteres>0</b:IdSitioInteres>
+                            <b:Latitud>0</b:Latitud>
+                            <b:Longitud>0</b:Longitud>
+                            <b:Nombre i:nil="true"/>
+                            <b:Subcategoria i:nil="true"/>
+                        </b:SitioInteres>
+                        <b:TelefonoContacto i:nil="true"/>
+                        <b:TelefonoOficinaContacto i:nil="true"/>
+                        <b:TiempoTramitePorConfiguracion i:nil="true"/>
+                        <b:TieneCobrosDescargados>false</b:TieneCobrosDescargados>
+                        <b:TipoDocumentoCliente i:nil="true"/>
+                        <b:TipoIngresoSolicitud>Ninguno</b:TipoIngresoSolicitud>
+                        <b:TrabajoConfigurado>
+                            <b:ActividadesConfiguradas i:nil="true"/>
+                            <b:AtributosSolicitud i:nil="true"/>
+                            <b:CambioGrupoTrabajoMayorDiametro i:nil="true"/>
+                            <b:CambioMedidor i:nil="true"/>
+                            <b:CambioMedidorMayorDiametro i:nil="true"/>
+                            <b:CambioMedidorMenorDiametro i:nil="true"/>
+                            <b:ConceptosFacturacion i:nil="true"/>
+                            <b:Ejecutor>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>EPM</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:Ejecutor>
+                            <b:EntidadesDescargue i:nil="true"/>
+                            <b:EsCambioProducto>false</b:EsCambioProducto>
+                            <b:Estado>false</b:Estado>
+                            <b:EstadoLimiteOT i:nil="true"/>
+                            <b:EstadosPpsValidarServicioPortafolio i:nil="true"/>
+                            <b:IdPortafolio i:nil="true"/>
+                            <b:IdTrabajoConfigurado>0</b:IdTrabajoConfigurado>
+                            <b:Motivos i:nil="true"/>
+                            <b:NumeroActividadesConfiguradas>0</b:NumeroActividadesConfiguradas>
+                            <b:NumeroDiasPendienteCancelacion>0</b:NumeroDiasPendienteCancelacion>
+                            <b:PermiteDescargueUsuarioCreacionSolicitud i:nil="true"/>
+                            <b:PermiteSolicitudesRepetidas i:nil="true"/>
+                            <b:PermitirDireccionNoEncontradaMarcoPolo i:nil="true"/>
+                            <b:Proceso i:nil="true"/>
+                            <b:SeSeleccionaTrabajoComoIdentificador>false</b:SeSeleccionaTrabajoComoIdentificador>
+                            <b:Servicio>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>Agua Potable</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:Servicio>
+                            <b:Subproceso i:nil="true"/>
+                            <b:TipoFacturacion i:nil="true"/>
+                            <b:TipoServicioAsociado i:nil="true"/>
+                            <b:TipoTrabajo>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>Reclamos</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:TipoTrabajo>
+                            <b:TipoTransaccionAbastoPropio>0</b:TipoTransaccionAbastoPropio>
+                            <b:Trabajo>
+                                <b:CausasEventosServiciosTrabajo i:nil="true"/>
+                                <b:Codigo i:nil="true"/>
+                                <b:Descripcion i:nil="true"/>
+                                <b:Estado>false</b:Estado>
+                                <b:IdTrabajo>0</b:IdTrabajo>
+                                <b:Nombre>Verificar continuidad del servicio</b:Nombre>
+                                <b:TiposCausasEstadoServiciosTrabajo i:nil="true"/>
+                            </b:Trabajo>
+                            <b:Urgencia i:nil="true"/>
+                            <b:ValidarCapacidadOperativa i:nil="true"/>
+                        </b:TrabajoConfigurado>
+                        <b:Ubicacion i:nil="true"/>
+                        <b:Urgencia i:nil="true"/>
+                        <b:Urgencia_Actual i:nil="true"/>
+                        <b:UsuarioCreacion i:nil="true"/>
+                        <b:cambioEstadoCanceladaNoPQR>false</b:cambioEstadoCanceladaNoPQR>
+                        <b:cambioEstadoPendienteFSM i:nil="true"/>
+                    </b:Solicitud>
+                    <b:Solicitud>
+                        <b:ActividadCerradaCancelada>false</b:ActividadCerradaCancelada>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaLluvia i:nil="true"/>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaPotable i:nil="true"/>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaResidual i:nil="true"/>
+                        <b:ArchivosAdjuntos i:nil="true"/>
+                        <b:AreaGeografica i:nil="true"/>
+                        <b:AtributosSolicitud i:nil="true"/>
+                        <b:Barrio i:nil="true"/>
+                        <b:CallIdMUA i:nil="true"/>
+                        <b:CambioEstado i:nil="true"/>
+                        <b:Canal>Ninguno</b:Canal>
+                        <b:CausaComplementariaValida>false</b:CausaComplementariaValida>
+                        <b:CausaEstado i:nil="true"/>
+                        <b:CausaEstadoTieneCausasComplementarias>false</b:CausaEstadoTieneCausasComplementarias>
+                        <b:CausaEstadoValida>false</b:CausaEstadoValida>
+                        <b:CausaEvento i:nil="true"/>
+                        <b:CausasComplementarias i:nil="true"/>
+                        <b:CircuitoCuenca i:nil="true"/>
+                        <b:Ciudad i:nil="true"/>
+                        <b:CiudadCobro i:nil="true"/>
+                        <b:CobroInversionEmpresa i:nil="true"/>
+                        <b:CobroInversionTerceros i:nil="true"/>
+                        <b:CodigoUnicoDireccion>0</b:CodigoUnicoDireccion>
+                        <b:CodigoUnicoDireccionCobro>0</b:CodigoUnicoDireccionCobro>
+                        <b:Convenio i:nil="true"/>
+                        <b:CorreoElectronicoContacto i:nil="true"/>
+                        <b:CrearPortafolioCliente>false</b:CrearPortafolioCliente>
+                        <b:CumpleTiempoCambiarAbiertaCerrada>false</b:CumpleTiempoCambiarAbiertaCerrada>
+                        <b:CumpleTiempoCambiarEnTramiteCancelada>false</b:CumpleTiempoCambiarEnTramiteCancelada>
+                        <b:CumpleTiempoCambiarPendienteCancelada>false</b:CumpleTiempoCambiarPendienteCancelada>
+                        <b:Direccion>
+                            <b:CicloLectura i:nil="true"/>
+                            <b:CicloReparto i:nil="true"/>
+                            <b:CodigoUnico i:nil="true"/>
+                            <b:CoordenadaX>0</b:CoordenadaX>
+                            <b:CoordenadaY>0</b:CoordenadaY>
+                            <b:CorreriaLectura i:nil="true"/>
+                            <b:CorreriaReparto i:nil="true"/>
+                            <b:DireccionEstandarizada>CL 39 CR 90 -40</b:DireccionEstandarizada>
+                            <b:EsDireccioRural>false</b:EsDireccioRural>
+                            <b:Estado i:nil="true"/>
+                            <b:Estrato i:nil="true"/>
+                            <b:Geometria i:nil="true"/>
+                            <b:Pagina i:nil="true"/>
+                        </b:Direccion>
+                        <b:DireccionCobro i:nil="true"/>
+                        <b:ElementoRed i:nil="true"/>
+                        <b:Empresa i:nil="true"/>
+                        <b:EnviarCorreoContacto>false</b:EnviarCorreoContacto>
+                        <b:EnviarCorreoLiderGrupo>false</b:EnviarCorreoLiderGrupo>
+                        <b:EsDireccionCobroRural>false</b:EsDireccionCobroRural>
+                        <b:EsDireccionRural>false</b:EsDireccionRural>
+                        <b:EsSolicitudAgendada>false</b:EsSolicitudAgendada>
+                        <b:EsSolicitudAreaGeografica>false</b:EsSolicitudAreaGeografica>
+                        <b:Estado>
+                            <b:Codigo i:nil="true"/>
+                            <b:Jerarquia i:nil="true"/>
+                            <b:Nombre>Abierto</b:Nombre>
+                            <b:Observacion i:nil="true"/>
+                        </b:Estado>
+                        <b:EstadoActividadSeleccionada>Ninguno</b:EstadoActividadSeleccionada>
+                        <b:EstadoFSM i:nil="true"/>
+                        <b:EstadoFacturacion i:nil="true"/>
+                        <b:ExistePortafolioHidro>false</b:ExistePortafolioHidro>
+                        <b:ExistePortafolioOpen>false</b:ExistePortafolioOpen>
+                        <b:ExisteRespuestaCRM>false</b:ExisteRespuestaCRM>
+                        <b:ExternalRefIdMUA i:nil="true"/>
+                        <b:FechaCreacion>2020-05-14T12:57:18</b:FechaCreacion>
+                        <b:FechaEstadoSolicitud>0001-01-01T00:00:00</b:FechaEstadoSolicitud>
+                        <b:FechaProgramacionAgendamientoMUA i:nil="true"/>
+                        <b:FechaProgramacionOrdenes i:nil="true"/>
+                        <b:Geometria i:nil="true"/>
+                        <b:GeometriaCobro i:nil="true"/>
+                        <b:IdAsociacionArchivosAdjuntos i:nil="true"/>
+                        <b:IdLlamadaContacto i:nil="true"/>
+                        <b:IdSolicitud>3355603</b:IdSolicitud>
+                        <b:IdSolicitudOrigen i:nil="true"/>
+                        <b:IdSolicitudOrigenInicial i:nil="true"/>
+                        <b:IdentificacionCliente i:nil="true"/>
+                        <b:InconsistenciasGeneracionMasiva i:nil="true"/>
+                        <b:Llamadas i:nil="true"/>
+                        <b:ModuloOrigen i:nil="true"/>
+                        <b:Motivo>
+                            <b:Canales i:nil="true"/>
+                            <b:Guion i:nil="true"/>
+                            <b:IdEmpresa>0</b:IdEmpresa>
+                            <b:IdMotivo>0</b:IdMotivo>
+                            <b:Nombre>Supervisar investigacion</b:Nombre>
+                        </b:Motivo>
+                        <b:MotivoCambioEstado i:nil="true"/>
+                        <b:NombreContacto i:nil="true"/>
+                        <b:NumeroArchivosAdjuntos i:nil="true"/>
+                        <b:NumeroLLamadas>0</b:NumeroLLamadas>
+                        <b:NumeroObservaciones i:nil="true"/>
+                        <b:ObservacionNueva i:nil="true"/>
+                        <b:Observaciones i:nil="true"/>
+                        <b:OrdenesTrabajo i:nil="true"/>
+                        <b:Portafolio i:nil="true"/>
+                        <b:ProvieneDescargueUrbanizadores i:nil="true"/>
+                        <b:PuedeCambiarDeEstado>false</b:PuedeCambiarDeEstado>
+                        <b:Requisitos i:nil="true"/>
+                        <b:SeNotificoASistemaExterno>false</b:SeNotificoASistemaExterno>
+                        <b:SecuenciaMUA i:nil="true"/>
+                        <b:ServicioSuscritoSinPPS>0</b:ServicioSuscritoSinPPS>
+                        <b:SistemaOrigen>Ninguno</b:SistemaOrigen>
+                        <b:SitioInteres>
+                            <b:Categoria i:nil="true"/>
+                            <b:Ciudad i:nil="true"/>
+                            <b:Codigo i:nil="true"/>
+                            <b:Geometria i:nil="true"/>
+                            <b:IdSitioInteres>0</b:IdSitioInteres>
+                            <b:Latitud>0</b:Latitud>
+                            <b:Longitud>0</b:Longitud>
+                            <b:Nombre i:nil="true"/>
+                            <b:Subcategoria i:nil="true"/>
+                        </b:SitioInteres>
+                        <b:TelefonoContacto i:nil="true"/>
+                        <b:TelefonoOficinaContacto i:nil="true"/>
+                        <b:TiempoTramitePorConfiguracion i:nil="true"/>
+                        <b:TieneCobrosDescargados>false</b:TieneCobrosDescargados>
+                        <b:TipoDocumentoCliente i:nil="true"/>
+                        <b:TipoIngresoSolicitud>Ninguno</b:TipoIngresoSolicitud>
+                        <b:TrabajoConfigurado>
+                            <b:ActividadesConfiguradas i:nil="true"/>
+                            <b:AtributosSolicitud i:nil="true"/>
+                            <b:CambioGrupoTrabajoMayorDiametro i:nil="true"/>
+                            <b:CambioMedidor i:nil="true"/>
+                            <b:CambioMedidorMayorDiametro i:nil="true"/>
+                            <b:CambioMedidorMenorDiametro i:nil="true"/>
+                            <b:ConceptosFacturacion i:nil="true"/>
+                            <b:Ejecutor>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>Investigación y Control</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:Ejecutor>
+                            <b:EntidadesDescargue i:nil="true"/>
+                            <b:EsCambioProducto>false</b:EsCambioProducto>
+                            <b:Estado>false</b:Estado>
+                            <b:EstadoLimiteOT i:nil="true"/>
+                            <b:EstadosPpsValidarServicioPortafolio i:nil="true"/>
+                            <b:IdPortafolio i:nil="true"/>
+                            <b:IdTrabajoConfigurado>0</b:IdTrabajoConfigurado>
+                            <b:Motivos i:nil="true"/>
+                            <b:NumeroActividadesConfiguradas>0</b:NumeroActividadesConfiguradas>
+                            <b:NumeroDiasPendienteCancelacion>0</b:NumeroDiasPendienteCancelacion>
+                            <b:PermiteDescargueUsuarioCreacionSolicitud i:nil="true"/>
+                            <b:PermiteSolicitudesRepetidas i:nil="true"/>
+                            <b:PermitirDireccionNoEncontradaMarcoPolo i:nil="true"/>
+                            <b:Proceso i:nil="true"/>
+                            <b:SeSeleccionaTrabajoComoIdentificador>false</b:SeSeleccionaTrabajoComoIdentificador>
+                            <b:Servicio>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>Agua Potable</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:Servicio>
+                            <b:Subproceso i:nil="true"/>
+                            <b:TipoFacturacion i:nil="true"/>
+                            <b:TipoServicioAsociado i:nil="true"/>
+                            <b:TipoTrabajo>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>Control de Pérdidas Comerciales</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:TipoTrabajo>
+                            <b:TipoTransaccionAbastoPropio>0</b:TipoTransaccionAbastoPropio>
+                            <b:Trabajo>
+                                <b:CausasEventosServiciosTrabajo i:nil="true"/>
+                                <b:Codigo i:nil="true"/>
+                                <b:Descripcion i:nil="true"/>
+                                <b:Estado>false</b:Estado>
+                                <b:IdTrabajo>0</b:IdTrabajo>
+                                <b:Nombre>Investigacion Instalaciones</b:Nombre>
+                                <b:TiposCausasEstadoServiciosTrabajo i:nil="true"/>
+                            </b:Trabajo>
+                            <b:Urgencia i:nil="true"/>
+                            <b:ValidarCapacidadOperativa i:nil="true"/>
+                        </b:TrabajoConfigurado>
+                        <b:Ubicacion i:nil="true"/>
+                        <b:Urgencia i:nil="true"/>
+                        <b:Urgencia_Actual i:nil="true"/>
+                        <b:UsuarioCreacion i:nil="true"/>
+                        <b:cambioEstadoCanceladaNoPQR>false</b:cambioEstadoCanceladaNoPQR>
+                        <b:cambioEstadoPendienteFSM i:nil="true"/>
+                    </b:Solicitud>
+                    <b:Solicitud>
+                        <b:ActividadCerradaCancelada>false</b:ActividadCerradaCancelada>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaLluvia i:nil="true"/>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaPotable i:nil="true"/>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaResidual i:nil="true"/>
+                        <b:ArchivosAdjuntos i:nil="true"/>
+                        <b:AreaGeografica i:nil="true"/>
+                        <b:AtributosSolicitud i:nil="true"/>
+                        <b:Barrio i:nil="true"/>
+                        <b:CallIdMUA i:nil="true"/>
+                        <b:CambioEstado i:nil="true"/>
+                        <b:Canal>Ninguno</b:Canal>
+                        <b:CausaComplementariaValida>false</b:CausaComplementariaValida>
+                        <b:CausaEstado i:nil="true"/>
+                        <b:CausaEstadoTieneCausasComplementarias>false</b:CausaEstadoTieneCausasComplementarias>
+                        <b:CausaEstadoValida>false</b:CausaEstadoValida>
+                        <b:CausaEvento i:nil="true"/>
+                        <b:CausasComplementarias i:nil="true"/>
+                        <b:CircuitoCuenca i:nil="true"/>
+                        <b:Ciudad i:nil="true"/>
+                        <b:CiudadCobro i:nil="true"/>
+                        <b:CobroInversionEmpresa i:nil="true"/>
+                        <b:CobroInversionTerceros i:nil="true"/>
+                        <b:CodigoUnicoDireccion>0</b:CodigoUnicoDireccion>
+                        <b:CodigoUnicoDireccionCobro>0</b:CodigoUnicoDireccionCobro>
+                        <b:Convenio i:nil="true"/>
+                        <b:CorreoElectronicoContacto i:nil="true"/>
+                        <b:CrearPortafolioCliente>false</b:CrearPortafolioCliente>
+                        <b:CumpleTiempoCambiarAbiertaCerrada>false</b:CumpleTiempoCambiarAbiertaCerrada>
+                        <b:CumpleTiempoCambiarEnTramiteCancelada>false</b:CumpleTiempoCambiarEnTramiteCancelada>
+                        <b:CumpleTiempoCambiarPendienteCancelada>false</b:CumpleTiempoCambiarPendienteCancelada>
+                        <b:Direccion>
+                            <b:CicloLectura i:nil="true"/>
+                            <b:CicloReparto i:nil="true"/>
+                            <b:CodigoUnico i:nil="true"/>
+                            <b:CoordenadaX>0</b:CoordenadaX>
+                            <b:CoordenadaY>0</b:CoordenadaY>
+                            <b:CorreriaLectura i:nil="true"/>
+                            <b:CorreriaReparto i:nil="true"/>
+                            <b:DireccionEstandarizada>CL 39 CR 90 -40</b:DireccionEstandarizada>
+                            <b:EsDireccioRural>false</b:EsDireccioRural>
+                            <b:Estado i:nil="true"/>
+                            <b:Estrato i:nil="true"/>
+                            <b:Geometria i:nil="true"/>
+                            <b:Pagina i:nil="true"/>
+                        </b:Direccion>
+                        <b:DireccionCobro i:nil="true"/>
+                        <b:ElementoRed i:nil="true"/>
+                        <b:Empresa i:nil="true"/>
+                        <b:EnviarCorreoContacto>false</b:EnviarCorreoContacto>
+                        <b:EnviarCorreoLiderGrupo>false</b:EnviarCorreoLiderGrupo>
+                        <b:EsDireccionCobroRural>false</b:EsDireccionCobroRural>
+                        <b:EsDireccionRural>false</b:EsDireccionRural>
+                        <b:EsSolicitudAgendada>false</b:EsSolicitudAgendada>
+                        <b:EsSolicitudAreaGeografica>false</b:EsSolicitudAreaGeografica>
+                        <b:Estado>
+                            <b:Codigo i:nil="true"/>
+                            <b:Jerarquia i:nil="true"/>
+                            <b:Nombre>Cerrado</b:Nombre>
+                            <b:Observacion i:nil="true"/>
+                        </b:Estado>
+                        <b:EstadoActividadSeleccionada>Ninguno</b:EstadoActividadSeleccionada>
+                        <b:EstadoFSM i:nil="true"/>
+                        <b:EstadoFacturacion i:nil="true"/>
+                        <b:ExistePortafolioHidro>false</b:ExistePortafolioHidro>
+                        <b:ExistePortafolioOpen>false</b:ExistePortafolioOpen>
+                        <b:ExisteRespuestaCRM>false</b:ExisteRespuestaCRM>
+                        <b:ExternalRefIdMUA i:nil="true"/>
+                        <b:FechaCreacion>2015-09-21T10:00:09</b:FechaCreacion>
+                        <b:FechaEstadoSolicitud>0001-01-01T00:00:00</b:FechaEstadoSolicitud>
+                        <b:FechaProgramacionAgendamientoMUA i:nil="true"/>
+                        <b:FechaProgramacionOrdenes i:nil="true"/>
+                        <b:Geometria i:nil="true"/>
+                        <b:GeometriaCobro i:nil="true"/>
+                        <b:IdAsociacionArchivosAdjuntos i:nil="true"/>
+                        <b:IdLlamadaContacto i:nil="true"/>
+                        <b:IdSolicitud>661867</b:IdSolicitud>
+                        <b:IdSolicitudOrigen i:nil="true"/>
+                        <b:IdSolicitudOrigenInicial i:nil="true"/>
+                        <b:IdentificacionCliente i:nil="true"/>
+                        <b:InconsistenciasGeneracionMasiva i:nil="true"/>
+                        <b:Llamadas i:nil="true"/>
+                        <b:ModuloOrigen i:nil="true"/>
+                        <b:Motivo>
+                            <b:Canales i:nil="true"/>
+                            <b:Guion i:nil="true"/>
+                            <b:IdEmpresa>0</b:IdEmpresa>
+                            <b:IdMotivo>0</b:IdMotivo>
+                            <b:Nombre>Llave o Accesorio Defectuoso</b:Nombre>
+                        </b:Motivo>
+                        <b:MotivoCambioEstado i:nil="true"/>
+                        <b:NombreContacto i:nil="true"/>
+                        <b:NumeroArchivosAdjuntos i:nil="true"/>
+                        <b:NumeroLLamadas>0</b:NumeroLLamadas>
+                        <b:NumeroObservaciones i:nil="true"/>
+                        <b:ObservacionNueva i:nil="true"/>
+                        <b:Observaciones i:nil="true"/>
+                        <b:OrdenesTrabajo i:nil="true"/>
+                        <b:Portafolio i:nil="true"/>
+                        <b:ProvieneDescargueUrbanizadores i:nil="true"/>
+                        <b:PuedeCambiarDeEstado>false</b:PuedeCambiarDeEstado>
+                        <b:Requisitos i:nil="true"/>
+                        <b:SeNotificoASistemaExterno>false</b:SeNotificoASistemaExterno>
+                        <b:SecuenciaMUA i:nil="true"/>
+                        <b:ServicioSuscritoSinPPS>0</b:ServicioSuscritoSinPPS>
+                        <b:SistemaOrigen>Ninguno</b:SistemaOrigen>
+                        <b:SitioInteres>
+                            <b:Categoria i:nil="true"/>
+                            <b:Ciudad i:nil="true"/>
+                            <b:Codigo i:nil="true"/>
+                            <b:Geometria i:nil="true"/>
+                            <b:IdSitioInteres>0</b:IdSitioInteres>
+                            <b:Latitud>0</b:Latitud>
+                            <b:Longitud>0</b:Longitud>
+                            <b:Nombre i:nil="true"/>
+                            <b:Subcategoria i:nil="true"/>
+                        </b:SitioInteres>
+                        <b:TelefonoContacto i:nil="true"/>
+                        <b:TelefonoOficinaContacto i:nil="true"/>
+                        <b:TiempoTramitePorConfiguracion i:nil="true"/>
+                        <b:TieneCobrosDescargados>false</b:TieneCobrosDescargados>
+                        <b:TipoDocumentoCliente i:nil="true"/>
+                        <b:TipoIngresoSolicitud>Ninguno</b:TipoIngresoSolicitud>
+                        <b:TrabajoConfigurado>
+                            <b:ActividadesConfiguradas i:nil="true"/>
+                            <b:AtributosSolicitud i:nil="true"/>
+                            <b:CambioGrupoTrabajoMayorDiametro i:nil="true"/>
+                            <b:CambioMedidor i:nil="true"/>
+                            <b:CambioMedidorMayorDiametro i:nil="true"/>
+                            <b:CambioMedidorMenorDiametro i:nil="true"/>
+                            <b:ConceptosFacturacion i:nil="true"/>
+                            <b:Ejecutor>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>Investigación y Control</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:Ejecutor>
+                            <b:EntidadesDescargue i:nil="true"/>
+                            <b:EsCambioProducto>false</b:EsCambioProducto>
+                            <b:Estado>false</b:Estado>
+                            <b:EstadoLimiteOT i:nil="true"/>
+                            <b:EstadosPpsValidarServicioPortafolio i:nil="true"/>
+                            <b:IdPortafolio i:nil="true"/>
+                            <b:IdTrabajoConfigurado>0</b:IdTrabajoConfigurado>
+                            <b:Motivos i:nil="true"/>
+                            <b:NumeroActividadesConfiguradas>0</b:NumeroActividadesConfiguradas>
+                            <b:NumeroDiasPendienteCancelacion>0</b:NumeroDiasPendienteCancelacion>
+                            <b:PermiteDescargueUsuarioCreacionSolicitud i:nil="true"/>
+                            <b:PermiteSolicitudesRepetidas i:nil="true"/>
+                            <b:PermitirDireccionNoEncontradaMarcoPolo i:nil="true"/>
+                            <b:Proceso i:nil="true"/>
+                            <b:SeSeleccionaTrabajoComoIdentificador>false</b:SeSeleccionaTrabajoComoIdentificador>
+                            <b:Servicio>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>Agua Potable</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:Servicio>
+                            <b:Subproceso i:nil="true"/>
+                            <b:TipoFacturacion i:nil="true"/>
+                            <b:TipoServicioAsociado i:nil="true"/>
+                            <b:TipoTrabajo>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>Mantenimiento de Acometidas</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:TipoTrabajo>
+                            <b:TipoTransaccionAbastoPropio>0</b:TipoTransaccionAbastoPropio>
+                            <b:Trabajo>
+                                <b:CausasEventosServiciosTrabajo i:nil="true"/>
+                                <b:Codigo i:nil="true"/>
+                                <b:Descripcion i:nil="true"/>
+                                <b:Estado>false</b:Estado>
+                                <b:IdTrabajo>0</b:IdTrabajo>
+                                <b:Nombre>Reparación en caja de medidor</b:Nombre>
+                                <b:TiposCausasEstadoServiciosTrabajo i:nil="true"/>
+                            </b:Trabajo>
+                            <b:Urgencia i:nil="true"/>
+                            <b:ValidarCapacidadOperativa i:nil="true"/>
+                        </b:TrabajoConfigurado>
+                        <b:Ubicacion i:nil="true"/>
+                        <b:Urgencia i:nil="true"/>
+                        <b:Urgencia_Actual i:nil="true"/>
+                        <b:UsuarioCreacion i:nil="true"/>
+                        <b:cambioEstadoCanceladaNoPQR>false</b:cambioEstadoCanceladaNoPQR>
+                        <b:cambioEstadoPendienteFSM i:nil="true"/>
+                    </b:Solicitud>
+                    <b:Solicitud>
+                        <b:ActividadCerradaCancelada>false</b:ActividadCerradaCancelada>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaLluvia i:nil="true"/>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaPotable i:nil="true"/>
+                        <b:ArchivoAdjuntoMemoriasCalculoAguaResidual i:nil="true"/>
+                        <b:ArchivosAdjuntos i:nil="true"/>
+                        <b:AreaGeografica i:nil="true"/>
+                        <b:AtributosSolicitud i:nil="true"/>
+                        <b:Barrio i:nil="true"/>
+                        <b:CallIdMUA i:nil="true"/>
+                        <b:CambioEstado i:nil="true"/>
+                        <b:Canal>Ninguno</b:Canal>
+                        <b:CausaComplementariaValida>false</b:CausaComplementariaValida>
+                        <b:CausaEstado i:nil="true"/>
+                        <b:CausaEstadoTieneCausasComplementarias>false</b:CausaEstadoTieneCausasComplementarias>
+                        <b:CausaEstadoValida>false</b:CausaEstadoValida>
+                        <b:CausaEvento i:nil="true"/>
+                        <b:CausasComplementarias i:nil="true"/>
+                        <b:CircuitoCuenca i:nil="true"/>
+                        <b:Ciudad i:nil="true"/>
+                        <b:CiudadCobro i:nil="true"/>
+                        <b:CobroInversionEmpresa i:nil="true"/>
+                        <b:CobroInversionTerceros i:nil="true"/>
+                        <b:CodigoUnicoDireccion>0</b:CodigoUnicoDireccion>
+                        <b:CodigoUnicoDireccionCobro>0</b:CodigoUnicoDireccionCobro>
+                        <b:Convenio i:nil="true"/>
+                        <b:CorreoElectronicoContacto i:nil="true"/>
+                        <b:CrearPortafolioCliente>false</b:CrearPortafolioCliente>
+                        <b:CumpleTiempoCambiarAbiertaCerrada>false</b:CumpleTiempoCambiarAbiertaCerrada>
+                        <b:CumpleTiempoCambiarEnTramiteCancelada>false</b:CumpleTiempoCambiarEnTramiteCancelada>
+                        <b:CumpleTiempoCambiarPendienteCancelada>false</b:CumpleTiempoCambiarPendienteCancelada>
+                        <b:Direccion>
+                            <b:CicloLectura i:nil="true"/>
+                            <b:CicloReparto i:nil="true"/>
+                            <b:CodigoUnico i:nil="true"/>
+                            <b:CoordenadaX>0</b:CoordenadaX>
+                            <b:CoordenadaY>0</b:CoordenadaY>
+                            <b:CorreriaLectura i:nil="true"/>
+                            <b:CorreriaReparto i:nil="true"/>
+                            <b:DireccionEstandarizada>CL 39 CR 90 -40</b:DireccionEstandarizada>
+                            <b:EsDireccioRural>false</b:EsDireccioRural>
+                            <b:Estado i:nil="true"/>
+                            <b:Estrato i:nil="true"/>
+                            <b:Geometria i:nil="true"/>
+                            <b:Pagina i:nil="true"/>
+                        </b:Direccion>
+                        <b:DireccionCobro i:nil="true"/>
+                        <b:ElementoRed i:nil="true"/>
+                        <b:Empresa i:nil="true"/>
+                        <b:EnviarCorreoContacto>false</b:EnviarCorreoContacto>
+                        <b:EnviarCorreoLiderGrupo>false</b:EnviarCorreoLiderGrupo>
+                        <b:EsDireccionCobroRural>false</b:EsDireccionCobroRural>
+                        <b:EsDireccionRural>false</b:EsDireccionRural>
+                        <b:EsSolicitudAgendada>false</b:EsSolicitudAgendada>
+                        <b:EsSolicitudAreaGeografica>false</b:EsSolicitudAreaGeografica>
+                        <b:Estado>
+                            <b:Codigo i:nil="true"/>
+                            <b:Jerarquia i:nil="true"/>
+                            <b:Nombre>Cerrado</b:Nombre>
+                            <b:Observacion i:nil="true"/>
+                        </b:Estado>
+                        <b:EstadoActividadSeleccionada>Ninguno</b:EstadoActividadSeleccionada>
+                        <b:EstadoFSM i:nil="true"/>
+                        <b:EstadoFacturacion i:nil="true"/>
+                        <b:ExistePortafolioHidro>false</b:ExistePortafolioHidro>
+                        <b:ExistePortafolioOpen>false</b:ExistePortafolioOpen>
+                        <b:ExisteRespuestaCRM>false</b:ExisteRespuestaCRM>
+                        <b:ExternalRefIdMUA i:nil="true"/>
+                        <b:FechaCreacion>2015-08-24T09:21:47</b:FechaCreacion>
+                        <b:FechaEstadoSolicitud>0001-01-01T00:00:00</b:FechaEstadoSolicitud>
+                        <b:FechaProgramacionAgendamientoMUA i:nil="true"/>
+                        <b:FechaProgramacionOrdenes i:nil="true"/>
+                        <b:Geometria i:nil="true"/>
+                        <b:GeometriaCobro i:nil="true"/>
+                        <b:IdAsociacionArchivosAdjuntos i:nil="true"/>
+                        <b:IdLlamadaContacto i:nil="true"/>
+                        <b:IdSolicitud>616245</b:IdSolicitud>
+                        <b:IdSolicitudOrigen i:nil="true"/>
+                        <b:IdSolicitudOrigenInicial i:nil="true"/>
+                        <b:IdentificacionCliente i:nil="true"/>
+                        <b:InconsistenciasGeneracionMasiva i:nil="true"/>
+                        <b:Llamadas i:nil="true"/>
+                        <b:ModuloOrigen i:nil="true"/>
+                        <b:Motivo>
+                            <b:Canales i:nil="true"/>
+                            <b:Guion i:nil="true"/>
+                            <b:IdEmpresa>0</b:IdEmpresa>
+                            <b:IdMotivo>0</b:IdMotivo>
+                            <b:Nombre>Obsolescencia Tecnologica Medidor</b:Nombre>
+                        </b:Motivo>
+                        <b:MotivoCambioEstado i:nil="true"/>
+                        <b:NombreContacto i:nil="true"/>
+                        <b:NumeroArchivosAdjuntos i:nil="true"/>
+                        <b:NumeroLLamadas>0</b:NumeroLLamadas>
+                        <b:NumeroObservaciones i:nil="true"/>
+                        <b:ObservacionNueva i:nil="true"/>
+                        <b:Observaciones i:nil="true"/>
+                        <b:OrdenesTrabajo i:nil="true"/>
+                        <b:Portafolio i:nil="true"/>
+                        <b:ProvieneDescargueUrbanizadores i:nil="true"/>
+                        <b:PuedeCambiarDeEstado>false</b:PuedeCambiarDeEstado>
+                        <b:Requisitos i:nil="true"/>
+                        <b:SeNotificoASistemaExterno>false</b:SeNotificoASistemaExterno>
+                        <b:SecuenciaMUA i:nil="true"/>
+                        <b:ServicioSuscritoSinPPS>0</b:ServicioSuscritoSinPPS>
+                        <b:SistemaOrigen>Ninguno</b:SistemaOrigen>
+                        <b:SitioInteres>
+                            <b:Categoria i:nil="true"/>
+                            <b:Ciudad i:nil="true"/>
+                            <b:Codigo i:nil="true"/>
+                            <b:Geometria i:nil="true"/>
+                            <b:IdSitioInteres>0</b:IdSitioInteres>
+                            <b:Latitud>0</b:Latitud>
+                            <b:Longitud>0</b:Longitud>
+                            <b:Nombre i:nil="true"/>
+                            <b:Subcategoria i:nil="true"/>
+                        </b:SitioInteres>
+                        <b:TelefonoContacto i:nil="true"/>
+                        <b:TelefonoOficinaContacto i:nil="true"/>
+                        <b:TiempoTramitePorConfiguracion i:nil="true"/>
+                        <b:TieneCobrosDescargados>false</b:TieneCobrosDescargados>
+                        <b:TipoDocumentoCliente i:nil="true"/>
+                        <b:TipoIngresoSolicitud>Ninguno</b:TipoIngresoSolicitud>
+                        <b:TrabajoConfigurado>
+                            <b:ActividadesConfiguradas i:nil="true"/>
+                            <b:AtributosSolicitud i:nil="true"/>
+                            <b:CambioGrupoTrabajoMayorDiametro i:nil="true"/>
+                            <b:CambioMedidor i:nil="true"/>
+                            <b:CambioMedidorMayorDiametro i:nil="true"/>
+                            <b:CambioMedidorMenorDiametro i:nil="true"/>
+                            <b:ConceptosFacturacion i:nil="true"/>
+                            <b:Ejecutor>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>Investigación y Control</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:Ejecutor>
+                            <b:EntidadesDescargue i:nil="true"/>
+                            <b:EsCambioProducto>false</b:EsCambioProducto>
+                            <b:Estado>false</b:Estado>
+                            <b:EstadoLimiteOT i:nil="true"/>
+                            <b:EstadosPpsValidarServicioPortafolio i:nil="true"/>
+                            <b:IdPortafolio i:nil="true"/>
+                            <b:IdTrabajoConfigurado>0</b:IdTrabajoConfigurado>
+                            <b:Motivos i:nil="true"/>
+                            <b:NumeroActividadesConfiguradas>0</b:NumeroActividadesConfiguradas>
+                            <b:NumeroDiasPendienteCancelacion>0</b:NumeroDiasPendienteCancelacion>
+                            <b:PermiteDescargueUsuarioCreacionSolicitud i:nil="true"/>
+                            <b:PermiteSolicitudesRepetidas i:nil="true"/>
+                            <b:PermitirDireccionNoEncontradaMarcoPolo i:nil="true"/>
+                            <b:Proceso i:nil="true"/>
+                            <b:SeSeleccionaTrabajoComoIdentificador>false</b:SeSeleccionaTrabajoComoIdentificador>
+                            <b:Servicio>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>Agua Potable</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:Servicio>
+                            <b:Subproceso i:nil="true"/>
+                            <b:TipoFacturacion i:nil="true"/>
+                            <b:TipoServicioAsociado i:nil="true"/>
+                            <b:TipoTrabajo>
+                                <b:Codigo i:nil="true"/>
+                                <b:Jerarquia i:nil="true"/>
+                                <b:Nombre>Cambios</b:Nombre>
+                                <b:Observacion i:nil="true"/>
+                            </b:TipoTrabajo>
+                            <b:TipoTransaccionAbastoPropio>0</b:TipoTransaccionAbastoPropio>
+                            <b:Trabajo>
+                                <b:CausasEventosServiciosTrabajo i:nil="true"/>
+                                <b:Codigo i:nil="true"/>
+                                <b:Descripcion i:nil="true"/>
+                                <b:Estado>false</b:Estado>
+                                <b:IdTrabajo>0</b:IdTrabajo>
+                                <b:Nombre>Cambio de Medidor</b:Nombre>
+                                <b:TiposCausasEstadoServiciosTrabajo i:nil="true"/>
+                            </b:Trabajo>
+                            <b:Urgencia i:nil="true"/>
+                            <b:ValidarCapacidadOperativa i:nil="true"/>
+                        </b:TrabajoConfigurado>
+                        <b:Ubicacion i:nil="true"/>
+                        <b:Urgencia i:nil="true"/>
+                        <b:Urgencia_Actual i:nil="true"/>
+                        <b:UsuarioCreacion i:nil="true"/>
+                        <b:cambioEstadoCanceladaNoPQR>false</b:cambioEstadoCanceladaNoPQR>
+                        <b:cambioEstadoPendienteFSM i:nil="true"/>
+                    </b:Solicitud>
+                </b:Solicitudes>
+                <b:SolicitudesAlrededor i:nil="true"/>
+            </ConsultarInformacionDireccionResult>
+        </ConsultarInformacionDireccionResponse>
+    </s:Body>
+</s:Envelope>

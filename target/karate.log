@@ -1,0 +1,2495 @@
+06:12:59.653 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:13:01.147 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:13:07.282 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+06:13:07.781 [main] DEBUG com.intuit.karate - response time in milliseconds: 494
+1 < 200
+1 < Date: Wed, 25 Aug 2021 11:13:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1619534976
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 13265
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=a2JrvHxWkhJYt6P3sH0ttMgn%2FsszxqQqkZyelaYTR4MjL8Xv8VroDRtvyH5%2BmeTErUwl6ywkLBEXXXTsQoWOV%2BNAkA6Dbf99tq%2BXgVv6MxauHYBNAU%2BBq5a1wZy0%2B8Uobwh7Jhwg12h1%2FMXkX01%2F"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 684463a748240335-MIA
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+06:13:08.034 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+2 > Accept-Encoding: gzip,deflate
+
+
+06:13:08.558 [main] DEBUG com.intuit.karate - response time in milliseconds: 523
+2 < 200
+2 < Date: Wed, 25 Aug 2021 11:13:08 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < x-powered-by: Express
+2 < x-ratelimit-limit: 1000
+2 < x-ratelimit-remaining: 999
+2 < x-ratelimit-reset: 1629768203
+2 < vary: Origin, Accept-Encoding
+2 < access-control-allow-credentials: true
+2 < cache-control: max-age=43200
+2 < pragma: no-cache
+2 < expires: -1
+2 < x-content-type-options: nosniff
+2 < etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < via: 1.1 vegur
+2 < CF-Cache-Status: REVALIDATED
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1rsXrYurOYXhDr3V%2BmVyWD01Y0%2BDB9lAZ%2BcYw0dq%2BhESw3%2FJIUFzUEcxySP8Ij5gOpu4UBUDMzkSO9507gTBIkBX8ON9ndnbxclYZ%2BjPsHK4YrG82kTZ9mO2TmVxTC38ZMbAM4e%2BsM%2FZKc94aUUG"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 684463abcc0c2203-MIA
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+06:13:08.570 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:13:08.681 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+06:13:09.288 [main] DEBUG com.intuit.karate - response time in milliseconds: 607
+1 < 201
+1 < Date: Wed, 25 Aug 2021 11:13:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 998
+1 < x-ratelimit-reset: 1629889994
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < access-control-allow-credentials: true
+1 < cache-control: no-cache
+1 < pragma: no-cache
+1 < expires: -1
+1 < access-control-expose-headers: Location
+1 < location: http://jsonplaceholder.typicode.com/users/11
+1 < x-content-type-options: nosniff
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MQ0aZJXZdPUeR0ct5TrfpY9dSv4tYN3LHQgHkNX6R3E%2BVLYbfkTDtDIdsgmJVAphid3%2F3dbVLEWNcCYV6FyXIJHxR1ubCLdcipfNg1%2BnUv1nkANnKqrNOH8Z8CkdSSQi5Est1s1CGlziJgm6OjWW"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 684463b06f0921bb-MIA
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+06:13:09.295 [main] INFO  com.intuit.karate - [print] created id is:  11 
+06:13:10.129 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+06:03:01.514 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:03:01.520 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630580581519
+06:03:02.360 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:03:05.678 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+06:03:06.295 [main] DEBUG com.intuit.karate - response time in milliseconds: 614
+1 < 200
+1 < Date: Thu, 02 Sep 2021 11:03:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1626711948
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 718
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=D1RZkODC3RDKIzbvOpEhwwNhxEmc3cyxMnif7mXRBOPVYDi%2F9r%2FyO7PdKHQUX0v%2FmIArM4VXUHS9OGf4OI6%2FErsuzK3rYYTcVp2z%2FMDV9bsaCSV2X6ai8GPbE98TuSEI6uYEZcrX%2Ft0RjhfgBXjl"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 68863ff80b8b0a2e-MIA
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+06:03:06.363 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+2 > Accept-Encoding: gzip,deflate
+
+
+06:03:06.682 [main] DEBUG com.intuit.karate - response time in milliseconds: 319
+2 < 200
+2 < Date: Thu, 02 Sep 2021 11:03:06 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < x-powered-by: Express
+2 < x-ratelimit-limit: 1000
+2 < x-ratelimit-remaining: 997
+2 < x-ratelimit-reset: 1630370621
+2 < vary: Origin, Accept-Encoding
+2 < access-control-allow-credentials: true
+2 < cache-control: max-age=43200
+2 < pragma: no-cache
+2 < expires: -1
+2 < x-content-type-options: nosniff
+2 < etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < via: 1.1 vegur
+2 < CF-Cache-Status: REVALIDATED
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MKdo1bJLvj3HsREiH%2BcojqrdHtumfVvr8B9ZR0T0KmQST3XPH73OKD9P8VCTngNSuxaui9Wl6EVsUitQXR1CvxKJg%2F%2BioSUzoHXST1H%2FSEBk56VOZH3S788p8HJh%2BbRbIHwFSgBbcBr%2Fddtkh4ZK"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 68863ffa198902f1-MIA
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+06:03:06.698 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:03:06.747 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+06:03:07.103 [main] DEBUG com.intuit.karate - response time in milliseconds: 355
+1 < 201
+1 < Date: Thu, 02 Sep 2021 11:03:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 998
+1 < x-ratelimit-reset: 1630580591
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < access-control-allow-credentials: true
+1 < cache-control: no-cache
+1 < pragma: no-cache
+1 < expires: -1
+1 < access-control-expose-headers: Location
+1 < location: http://jsonplaceholder.typicode.com/users/11
+1 < x-content-type-options: nosniff
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8%2FRzt6S2sqytCVRaaKAUQQsDHSQkbzUN6saNbo4u0dl1HdrpLS2D2JkFl%2FTdxBmyFZXiXAO2k66lQDt9AMVEtggWVpARapUtXjo5cG2mev5%2FryUR6ZYPMKV4YwxvPInWk5K49%2B71Rr%2FjTEUxcdis"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 68863ffc394302e0-MIA
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+06:03:07.107 [main] INFO  com.intuit.karate - [print] created id is:  11 
+06:03:07.801 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/usersdefault/users.feature
+06:03:45.006 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:03:45.069 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630580625010
+06:03:45.978 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:03:49.132 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+06:03:49.602 [main] DEBUG com.intuit.karate - response time in milliseconds: 468
+1 < 200
+1 < Date: Thu, 02 Sep 2021 11:03:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1626711948
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 761
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YyNWM%2Fx3UMGWOACv23PkFp%2Fjcpsk6FK%2Fhh8%2BeAob7En3P2KObSb4uKxhXzRwSZX7JE52Akpt3yfww1VSnt5aL3ERsD98XOG%2FcaBsP06CmAqjkCXQK57HP1mrUXLZGG26DjY8%2Fjk9OUjeyknpRl%2FN"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 68864106bcdd0a22-MIA
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+06:03:49.649 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+2 > Accept-Encoding: gzip,deflate
+
+
+06:03:49.894 [main] DEBUG com.intuit.karate - response time in milliseconds: 245
+2 < 200
+2 < Date: Thu, 02 Sep 2021 11:03:49 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < x-powered-by: Express
+2 < x-ratelimit-limit: 1000
+2 < x-ratelimit-remaining: 997
+2 < x-ratelimit-reset: 1630370621
+2 < vary: Origin, Accept-Encoding
+2 < access-control-allow-credentials: true
+2 < cache-control: max-age=43200
+2 < pragma: no-cache
+2 < expires: -1
+2 < x-content-type-options: nosniff
+2 < etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 43
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Anysn06EQae5PIB5heIizZ7w3XoUkq6%2BpB8YatoaohSCeBvRntrNnS%2FIIVQqY9e8LbIH09XxeJzJElqI7buOjhQ5waYM8%2FFvppgrBfq4FuGsdSnrQs44%2Bg%2B6jnL4i5mLUEA0Bp2nw2FsBTO39uYs"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 68864108a86a0355-MIA
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+06:03:49.905 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:03:49.952 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+06:03:50.258 [main] DEBUG com.intuit.karate - response time in milliseconds: 305
+1 < 201
+1 < Date: Thu, 02 Sep 2021 11:03:50 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1630580651
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < access-control-allow-credentials: true
+1 < cache-control: no-cache
+1 < pragma: no-cache
+1 < expires: -1
+1 < access-control-expose-headers: Location
+1 < location: http://jsonplaceholder.typicode.com/users/11
+1 < x-content-type-options: nosniff
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aT5D8hgnVftn37cpzAGPaelztC%2Fv7j1lwzSxPEJ32dvjrC6OH5dXp8BjiyfttZ9ZdvS8Oy9oDmCu%2BpwN1Qi5iqUmyZS0f4gnGNlJjmSHdmbjAYCjfwBBdkl4OxwzyXVgJcxwescaCaikpOc35Dpq"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6886410a8ea62230-MIA
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+06:03:50.265 [main] INFO  com.intuit.karate - [print] created id is:  11 
+06:03:50.769 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/usersdefault/users.feature
+06:05:02.656 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:05:02.662 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630580702660
+06:05:32.773 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:05:32.779 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630580732778
+06:05:33.650 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:05:36.989 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: text/xml; charset=UTF-8
+1 > SOAPAction: http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+06:05:37.346 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 3566 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+06:05:37.347 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:14
+When soap action 'http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion'
+http call failed after 3566 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+classpath:soap/consultas/consulta.feature:14
+06:05:37.838 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:08:12.515 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:08:12.519 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630580892518
+06:08:13.382 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:08:16.658 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: text/xml; charset=UTF-8
+1 > SOAPAction: http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+06:08:16.780 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 3253 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+06:08:16.781 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:13
+When soap action 'http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion'
+http call failed after 3253 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+classpath:soap/consultas/consulta.feature:13
+06:08:17.293 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:09:09.655 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:09:09.658 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630580949658
+06:09:10.569 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:09:14.090 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: text/xml; charset=UTF-8
+1 > SOAPAction: http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+06:09:14.213 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 3504 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+06:09:14.213 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:13
+When soap action 'http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion'
+http call failed after 3504 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+classpath:soap/consultas/consulta.feature:13
+06:09:14.710 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:14:14.998 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:14:15.007 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630581255001
+06:14:15.941 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:14:16.010 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:11
+And header domain='epm'
+no step-definition method match found for: header domain='epm'
+classpath:soap/consultas/consulta.feature:11
+06:14:16.674 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:43:42.313 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:43:42.319 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630583022318
+06:43:43.817 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:43:51.529 [main] DEBUG com.intuit.karate - request:
+1 > GET https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc?password=JhhqrvogvL92%23%258&domain=epm&username=jhenaoqu
+1 > Content-Type: application/soap+xml; charset=utf-8;
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+06:43:51.715 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 7569 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc?password=JhhqrvogvL92%23%258&domain=epm&username=jhenaoqu
+06:43:51.715 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:14
+When method get
+http call failed after 7569 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc?password=JhhqrvogvL92%23%258&domain=epm&username=jhenaoqu
+classpath:soap/consultas/consulta.feature:14
+06:43:52.669 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:45:30.914 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:45:30.919 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630583130918
+06:45:33.720 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:45:43.913 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: application/soap+xml; charset=utf-8;
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+06:45:44.234 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 9924 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+06:45:44.235 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:14
+When method post
+http call failed after 9924 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+classpath:soap/consultas/consulta.feature:14
+06:45:45.941 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:49:58.864 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:49:58.872 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630583398870
+06:50:00.640 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:50:08.908 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: text/xml; charset=UTF-8
+1 > Authorization: NTLM TlRMTVNTUAADAAAAGAAYAEAAAADeAN4AWAAAAAYABgA2AQAAEAAQADwBAAAaABoATAEAAAAAAABmAQAANQIIIF0MN1fgu1nf6zoTTe2UqYSZu0E6A6PleuDZ7wilA+rRWvteTlZHTWgBAQAAAAAAACDi1Rrpn9cBmbtBOgOj5XoAAAAAAgAGAEUAUABNAAEAFgBFAFAATQBXAFMAVAAwADQALQAwADMABAAeAGMAbwByAHAALgBlAHAAbQAuAGMAbwBtAC4AYwBvAAMANgBFAFAATQBXAFMAVAAwADQALQAwADMALgBjAG8AcgBwAC4AZQBwAG0ALgBjAG8AbQAuAGMAbwAFAB4AYwBvAHIAcAAuAGUAcABtAC4AYwBvAG0ALgBjAG8ABwAIABiH1Rrpn9cBAAAAAEUAUABNAGoAaABlAG4AYQBvAHEAdQBKAFUATABJAEEATgBQAC0ASABFAE4AQQBPAA==
+1 > SOAPAction: http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+06:50:09.095 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 8244 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+06:50:09.096 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+And soap action 'http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion'
+http call failed after 8244 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+classpath:soap/consultas/consulta.feature:12
+06:50:10.045 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:52:27.285 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:52:27.415 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630583547291
+06:52:29.330 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:52:29.453 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:10
+And header Content-Type = 'application/soap+xml; charset=utf-8;' + ' action=' 'http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion'
+js failed:
+>>>>
+01: 'application/soap+xml; charset=utf-8;' + ' action=' 'http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion'
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:53 Expected ; but found http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion
+'application/soap+xml; charset=utf-8;' + ' action=' 'http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion'
+                                                     ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.header(ScenarioEngine.java:391)
+
+classpath:soap/consultas/consulta.feature:10
+06:52:30.692 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:52:53.662 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:52:53.668 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630583573666
+06:52:55.097 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:52:55.226 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:10
+And header Content-Type = 'application/soap+xml; charset=utf-8;' ' action=' 'http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion'
+js failed:
+>>>>
+01: 'application/soap+xml; charset=utf-8;' ' action=' 'http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion'
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:40 Expected ; but found  action=
+'application/soap+xml; charset=utf-8;' ' action=' 'http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion'
+                                        ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.header(ScenarioEngine.java:391)
+
+classpath:soap/consultas/consulta.feature:10
+06:52:56.555 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:53:29.358 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:53:29.363 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630583609363
+06:53:31.020 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:53:38.150 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: application/soap+xml; charset=utf-8;
+1 > action: http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion
+1 > Authorization: NTLM TlRMTVNTUAADAAAAGAAYAEAAAADeAN4AWAAAAAYABgA2AQAAEAAQADwBAAAaABoATAEAAAAAAABmAQAANQIIIF0MN1fgu1nf6zoTTe2UqYSZu0E6A6PleuDZ7wilA+rRWvteTlZHTWgBAQAAAAAAACDi1Rrpn9cBmbtBOgOj5XoAAAAAAgAGAEUAUABNAAEAFgBFAFAATQBXAFMAVAAwADQALQAwADMABAAeAGMAbwByAHAALgBlAHAAbQAuAGMAbwBtAC4AYwBvAAMANgBFAFAATQBXAFMAVAAwADQALQAwADMALgBjAG8AcgBwAC4AZQBwAG0ALgBjAG8AbQAuAGMAbwAFAB4AYwBvAHIAcAAuAGUAcABtAC4AYwBvAG0ALgBjAG8ABwAIABiH1Rrpn9cBAAAAAEUAUABNAGoAaABlAG4AYQBvAHEAdQBKAFUATABJAEEATgBQAC0ASABFAE4AQQBPAA==
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+06:53:38.313 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 7080 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+06:53:38.314 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:13
+When method post
+http call failed after 7080 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+classpath:soap/consultas/consulta.feature:13
+06:53:39.446 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:55:59.575 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:55:59.583 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630583759580
+06:56:01.158 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:56:08.600 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: application/soap+xml; charset=utf-8; action= "http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > Authorization: NTLM TlRMTVNTUAADAAAAGAAYAEAAAADeAN4AWAAAAAYABgA2AQAAEAAQADwBAAAaABoATAEAAAAAAABmAQAANQIIIF0MN1fgu1nf6zoTTe2UqYSZu0E6A6PleuDZ7wilA+rRWvteTlZHTWgBAQAAAAAAACDi1Rrpn9cBmbtBOgOj5XoAAAAAAgAGAEUAUABNAAEAFgBFAFAATQBXAFMAVAAwADQALQAwADMABAAeAGMAbwByAHAALgBlAHAAbQAuAGMAbwBtAC4AYwBvAAMANgBFAFAATQBXAFMAVAAwADQALQAwADMALgBjAG8AcgBwAC4AZQBwAG0ALgBjAG8AbQAuAGMAbwAFAB4AYwBvAHIAcAAuAGUAcABtAC4AYwBvAG0ALgBjAG8ABwAIABiH1Rrpn9cBAAAAAEUAUABNAGoAaABlAG4AYQBvAHEAdQBKAFUATABJAEEATgBQAC0ASABFAE4AQQBPAA==
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+06:56:08.770 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 7409 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+06:56:08.770 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+When method post
+http call failed after 7409 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+classpath:soap/consultas/consulta.feature:12
+06:56:09.882 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:57:34.871 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:57:34.879 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630583854875
+06:57:36.460 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:57:44.619 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > Authorization: NTLM TlRMTVNTUAADAAAAGAAYAEAAAADeAN4AWAAAAAYABgA2AQAAEAAQADwBAAAaABoATAEAAAAAAABmAQAANQIIIGHMnNgh/3svv1cOnxSsQruGrfB+uqXwZSQoP3kejeLVDw2hzbMdWXoBAQAAAAAAADCsr6Txn9cBhq3wfrql8GUAAAAAAgAGAEUAUABNAAEAFgBFAFAATQBXAFMAVAAwADQALQAwADMABAAeAGMAbwByAHAALgBlAHAAbQAuAGMAbwBtAC4AYwBvAAMANgBFAFAATQBXAFMAVAAwADQALQAwADMALgBjAG8AcgBwAC4AZQBwAG0ALgBjAG8AbQAuAGMAbwAFAB4AYwBvAHIAcAAuAGUAcABtAC4AYwBvAG0ALgBjAG8ABwAIAPAJrKTxn9cBAAAAAEUAUABNAGoAaABlAG4AYQBvAHEAdQBKAFUATABJAEEATgBQAC0ASABFAE4AQQBPAA==
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+06:57:44.885 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 8188 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+06:57:44.886 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+When method post
+http call failed after 8188 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+classpath:soap/consultas/consulta.feature:12
+06:57:46.098 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+06:58:29.058 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:58:29.085 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630583909064
+06:58:30.741 [main] INFO  com.intuit.karate - karate.env system property was: null 
+06:58:41.333 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > Authorization: NTLM TlRMTVNTUAADAAAAGAAYAEAAAADeAN4AWAAAAAYABgA2AQAAEAAQADwBAAAaABoATAEAAAAAAABmAQAANQIIIGHMnNgh/3svv1cOnxSsQruGrfB+uqXwZSQoP3kejeLVDw2hzbMdWXoBAQAAAAAAADCsr6Txn9cBhq3wfrql8GUAAAAAAgAGAEUAUABNAAEAFgBFAFAATQBXAFMAVAAwADQALQAwADMABAAeAGMAbwByAHAALgBlAHAAbQAuAGMAbwBtAC4AYwBvAAMANgBFAFAATQBXAFMAVAAwADQALQAwADMALgBjAG8AcgBwAC4AZQBwAG0ALgBjAG8AbQAuAGMAbwAFAB4AYwBvAHIAcAAuAGUAcABtAC4AYwBvAG0ALgBjAG8ABwAIAPAJrKTxn9cBAAAAAEUAUABNAGoAaABlAG4AYQBvAHEAdQBKAFUATABJAEEATgBQAC0ASABFAE4AQQBPAA==
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+06:58:41.682 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 10679 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+06:58:41.684 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+When method post
+http call failed after 10679 milliseconds for url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+classpath:soap/consultas/consulta.feature:12
+06:58:43.507 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+07:00:23.649 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:00:23.655 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630584023655
+07:00:25.330 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:00:35.990 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > Authorization: NTLM TlRMTVNTUAADAAAAGAAYAEAAAADeAN4AWAAAAAYABgA2AQAAEAAQADwBAAAaABoATAEAAAAAAABmAQAANQIIIGHMnNgh/3svv1cOnxSsQruGrfB+uqXwZSQoP3kejeLVDw2hzbMdWXoBAQAAAAAAADCsr6Txn9cBhq3wfrql8GUAAAAAAgAGAEUAUABNAAEAFgBFAFAATQBXAFMAVAAwADQALQAwADMABAAeAGMAbwByAHAALgBlAHAAbQAuAGMAbwBtAC4AYwBvAAMANgBFAFAATQBXAFMAVAAwADQALQAwADMALgBjAG8AcgBwAC4AZQBwAG0ALgBjAG8AbQAuAGMAbwAFAB4AYwBvAHIAcAAuAGUAcABtAC4AYwBvAG0ALgBjAG8ABwAIAPAJrKTxn9cBAAAAAEUAUABNAGoAaABlAG4AYQBvAHEAdQBKAFUATABJAEEATgBQAC0ASABFAE4AQQBPAA==
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+07:00:36.374 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:13
+When method post
+org/apache/commons/codec/binary/Base64
+classpath:soap/consultas/consulta.feature:13
+07:00:37.648 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+07:04:49.681 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:04:49.687 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630584289686
+07:04:51.369 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:04:59.138 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:6
+* def parseJwt =
+"""
+function(token) {
+    var base64Url = token.split('.')[1];
+    var base64Str = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    var Base64 = Java.type('java.util.Base64');
+    var decoded = Base64.getDecoder().decode(base64Str);
+    var String = Java.type('java.lang.String')
+    return "NTLM "+new String(decoded)
+};
+"""
+js failed:
+>>>>
+01: (function(token) {
+02:     var base64Url = token.split('.')[1];
+03:     var base64Str = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+04:     var Base64 = Java.type('java.util.Base64');
+05:     var decoded = Base64.getDecoder().decode(base64Str);
+06:     var String = Java.type('java.lang.String')
+07:     return "NTLM "+new String(decoded)
+08: };)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:8:1 Expected ) but found ;
+};)
+ ^
+Unnamed:8:2 Expected ; but found )
+};)
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1316)
+
+classpath:soap/consultas/consulta.feature:6
+07:05:00.364 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+07:05:34.971 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:05:34.977 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630584334976
+07:05:36.502 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:05:42.899 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:6
+* def parseJwt =
+"""
+function(token) {
+    var base64Url = token.split('.')[1];
+    var base64Str = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    var Base64 = Java.type('java.util.Base64');
+    var decoded = Base64.getDecoder().decode(base64Str);
+    var String = Java.type('java.lang.String')
+    return "NTLM "+new String(decoded)
+};
+"""
+js failed:
+>>>>
+01: (function(token) {
+02:     var base64Url = token.split('.')[1];
+03:     var base64Str = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+04:     var Base64 = Java.type('java.util.Base64');
+05:     var decoded = Base64.getDecoder().decode(base64Str);
+06:     var String = Java.type('java.lang.String')
+07:     return "NTLM "+new String(decoded)
+08: };)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:8:1 Expected ) but found ;
+};)
+ ^
+Unnamed:8:2 Expected ; but found )
+};)
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1316)
+
+classpath:soap/consultas/consulta.feature:6
+07:05:43.983 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+07:06:50.661 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:06:50.667 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630584410666
+07:06:53.277 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:07:04.422 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:6
+* def parseJwt =
+"""
+function(token) {
+    var base64Url = token.split('.')[1];
+    var base64Str = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    var Base64 = Java.type('java.util.Base64');
+    var decoded = Base64.getDecoder().decode(base64Str);
+    var String = Java.type('java.lang.String')
+    var res = new String(decoded)
+    res = "NTLM " + res
+    return res
+};
+"""
+js failed:
+>>>>
+01: (function(token) {
+02:     var base64Url = token.split('.')[1];
+03:     var base64Str = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+04:     var Base64 = Java.type('java.util.Base64');
+05:     var decoded = Base64.getDecoder().decode(base64Str);
+06:     var String = Java.type('java.lang.String')
+07:     var res = new String(decoded)
+08:     res = "NTLM " + res
+09:     return res
+10: };)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:10:1 Expected ) but found ;
+};)
+ ^
+Unnamed:10:2 Expected ; but found )
+};)
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1316)
+
+classpath:soap/consultas/consulta.feature:6
+07:07:06.399 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+07:39:19.903 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:39:19.910 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630586359909
+07:39:21.658 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:39:29.606 [1630586369605] DEBUG com.intuit.karate - command: [curl, -X, GET, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -u, epmjhenaoqu:JhhqrvogvL92#%8, -s], working dir: null
+07:39:29.993 [1630586369605] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 77 - [curl, -X, GET, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -u, epmjhenaoqu:JhhqrvogvL92#%8, -s] working dir: null
+07:39:30.415 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > Authorization: 
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+07:39:30.842 [main] DEBUG com.intuit.karate - response time in milliseconds: 425
+1 < 400
+1 < Content-Type: text/html; charset=us-ascii
+1 < Server: Microsoft-HTTPAPI/2.0
+1 < Date: Thu, 02 Sep 2021 12:39:30 GMT
+1 < Connection: close
+1 < Content-Length: 311
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Bad Request</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Bad Request</h2>
+<hr><p>HTTP Error 400. The request is badly formed.</p>
+</BODY></HTML>
+
+07:39:30.845 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:13
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 425, url: https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, response: 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Bad Request</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Bad Request</h2>
+<hr><p>HTTP Error 400. The request is badly formed.</p>
+</BODY></HTML>
+
+classpath:soap/consultas/consulta.feature:13
+07:39:31.762 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:28:45.451 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:28:45.462 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630664925461
+05:28:47.011 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:28:52.862 [1630664932862] DEBUG com.intuit.karate - command: [curl, -X, GET, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -u, epmjhenaoqu:JhhqrvogvL92#%8, -s], working dir: null
+05:28:53.336 [1630664932862] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 77 - [curl, -X, GET, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -u, epmjhenaoqu:JhhqrvogvL92#%8, -s] working dir: null
+05:28:53.934 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > 'Authorization': 
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+05:28:55.394 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+When method post
+org/apache/commons/codec/binary/Base64
+classpath:soap/consultas/consulta.feature:12
+05:28:56.765 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:31:26.218 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:31:26.224 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630665086223
+05:31:27.916 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:31:34.205 [1630665094205] DEBUG com.intuit.karate - command: [curl, -X, GET, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8], working dir: null
+05:31:34.268 [1630665094205-out] DEBUG com.intuit.karate - Note: Unnecessary use of -X or --request, GET is already inferred.
+05:31:34.268 [1630665094205-out] DEBUG com.intuit.karate -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+05:31:34.269 [1630665094205-out] DEBUG com.intuit.karate -                                  Dload  Upload   Total   Spent    Left  Speed
+05:31:34.269 [1630665094205-out] DEBUG com.intuit.karate - 
+05:31:34.296 [1630665094205-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.16.46...
+05:31:34.297 [1630665094205-out] DEBUG com.intuit.karate - * TCP_NODELAY set
+05:31:34.318 [1630665094205-out] DEBUG com.intuit.karate - * Connected to epmwst04-03.corp.epm.com.co (10.1.16.46) port 443 (#0)
+05:31:34.319 [1630665094205-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 1/3)
+05:31:34.319 [1630665094205-out] DEBUG com.intuit.karate - * schannel: checking server certificate revocation
+05:31:34.323 [1630665094205-out] DEBUG com.intuit.karate - * schannel: sending initial handshake data: sending 198 bytes...
+05:31:34.324 [1630665094205-out] DEBUG com.intuit.karate - * schannel: sent initial handshake data: sent 198 bytes
+05:31:34.324 [1630665094205-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:31:34.325 [1630665094205-out] DEBUG com.intuit.karate - * schannel: failed to receive handshake, need more data
+05:31:34.350 [1630665094205-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:31:34.351 [1630665094205-out] DEBUG com.intuit.karate - * schannel: encrypted data got 2620
+05:31:34.351 [1630665094205-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 2620 length 4096
+05:31:34.352 [1630665094205-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:31:34.352 [1630665094205-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:31:34.352 [1630665094205-out] DEBUG com.intuit.karate - * schannel: encrypted data got 1476
+05:31:34.352 [1630665094205-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 4096 length 4096
+05:31:34.352 [1630665094205-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:31:34.353 [1630665094205-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:31:34.353 [1630665094205-out] DEBUG com.intuit.karate - * schannel: encrypted data got 231
+05:31:34.353 [1630665094205-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 4327 length 5120
+05:31:34.458 [1630665094205-out] DEBUG com.intuit.karate - * schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:31:34.459 [1630665094205-out] DEBUG com.intuit.karate - 
+05:31:34.460 [1630665094205-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:31:34.465 [1630665094205-out] DEBUG com.intuit.karate - * Closing connection 0
+05:31:34.466 [1630665094205-out] DEBUG com.intuit.karate - * schannel: shutting down SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443
+05:31:34.466 [1630665094205-out] DEBUG com.intuit.karate - * schannel: clear security context handle
+05:31:34.466 [1630665094205-out] DEBUG com.intuit.karate - curl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:31:34.468 [1630665094205] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 77 - [curl, -X, GET, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8] working dir: null
+05:31:35.025 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > 'Authorization': Note: Unnecessary use of -X or --request, GET is already inferred.  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.16.46...* TCP_NODELAY set* Connected to epmwst04-03.corp.epm.com.co (10.1.16.46) port 443 (#0)* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 1/3)* schannel: checking server certificate revocation* schannel: sending initial handshake data: sending 198 bytes...* schannel: sent initial handshake data: sent 198 bytes* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: failed to receive handshake, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 2620* schannel: encrypted data buffer: offset 2620 length 4096* schannel: received incomplete message, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 1476* schannel: encrypted data buffer: offset 4096 length 4096* schannel: received incomplete message, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 231* schannel: encrypted data buffer: offset 4327 length 5120* schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Closing connection 0* schannel: shutting down SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443* schannel: clear security context handlecurl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+05:31:35.350 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+When method post
+org/apache/commons/codec/binary/Base64
+classpath:soap/consultas/consulta.feature:12
+05:31:36.312 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:33:01.086 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:33:01.095 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630665181094
+05:33:02.642 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:33:08.673 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:11
+And header 'Authorization' = result
+js failed:
+>>>>
+01: result
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "result" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:soap/consultas/consulta.feature:11
+05:33:09.737 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:33:40.281 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:33:40.287 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630665220287
+05:33:41.778 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:33:48.433 [1630665228432] DEBUG com.intuit.karate - command: [curl, -X, POST, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8], working dir: null
+05:33:48.506 [1630665228432-out] DEBUG com.intuit.karate -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+05:33:48.507 [1630665228432-out] DEBUG com.intuit.karate -                                  Dload  Upload   Total   Spent    Left  Speed
+05:33:48.507 [1630665228432-out] DEBUG com.intuit.karate - 
+05:33:48.531 [1630665228432-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.16.46...
+05:33:48.532 [1630665228432-out] DEBUG com.intuit.karate - * TCP_NODELAY set
+05:33:48.552 [1630665228432-out] DEBUG com.intuit.karate - * Connected to epmwst04-03.corp.epm.com.co (10.1.16.46) port 443 (#0)
+05:33:48.552 [1630665228432-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 1/3)
+05:33:48.552 [1630665228432-out] DEBUG com.intuit.karate - * schannel: checking server certificate revocation
+05:33:48.554 [1630665228432-out] DEBUG com.intuit.karate - * schannel: sending initial handshake data: sending 198 bytes...
+05:33:48.554 [1630665228432-out] DEBUG com.intuit.karate - * schannel: sent initial handshake data: sent 198 bytes
+05:33:48.554 [1630665228432-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:33:48.554 [1630665228432-out] DEBUG com.intuit.karate - * schannel: failed to receive handshake, need more data
+05:33:48.578 [1630665228432-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:33:48.578 [1630665228432-out] DEBUG com.intuit.karate - * schannel: encrypted data got 1310
+05:33:48.579 [1630665228432-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 1310 length 4096
+05:33:48.579 [1630665228432-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:33:48.579 [1630665228432-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:33:48.579 [1630665228432-out] DEBUG com.intuit.karate - * schannel: encrypted data got 1310
+05:33:48.579 [1630665228432-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 2620 length 4096
+05:33:48.579 [1630665228432-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:33:48.579 [1630665228432-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:33:48.579 [1630665228432-out] DEBUG com.intuit.karate - * schannel: encrypted data got 1310
+05:33:48.579 [1630665228432-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 3930 length 4096
+05:33:48.580 [1630665228432-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:33:48.580 [1630665228432-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:33:48.580 [1630665228432-out] DEBUG com.intuit.karate - * schannel: encrypted data got 397
+05:33:48.580 [1630665228432-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 4327 length 4954
+05:33:48.658 [1630665228432-out] DEBUG com.intuit.karate - * schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:33:48.659 [1630665228432-out] DEBUG com.intuit.karate - 
+05:33:48.659 [1630665228432-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:33:48.659 [1630665228432-out] DEBUG com.intuit.karate - * Closing connection 0
+05:33:48.660 [1630665228432-out] DEBUG com.intuit.karate - * schannel: shutting down SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443
+05:33:48.660 [1630665228432-out] DEBUG com.intuit.karate - * schannel: clear security context handle
+05:33:48.660 [1630665228432-out] DEBUG com.intuit.karate - curl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:33:48.664 [1630665228432] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 77 - [curl, -X, POST, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8] working dir: null
+05:33:48.667 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:14
+Then status 200
+java.lang.NullPointerException
+classpath:soap/consultas/consulta.feature:14
+05:33:49.796 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:42:24.255 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:42:24.260 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630665744259
+05:42:25.989 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:42:32.051 [1630665752050] DEBUG com.intuit.karate - command: [curl, -X, GET, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8], working dir: null
+05:42:32.107 [1630665752050-out] DEBUG com.intuit.karate - Note: Unnecessary use of -X or --request, GET is already inferred.
+05:42:32.108 [1630665752050-out] DEBUG com.intuit.karate -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+05:42:32.108 [1630665752050-out] DEBUG com.intuit.karate -                                  Dload  Upload   Total   Spent    Left  Speed
+05:42:32.109 [1630665752050-out] DEBUG com.intuit.karate - 
+05:42:32.135 [1630665752050-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.16.46...
+05:42:32.136 [1630665752050-out] DEBUG com.intuit.karate - * TCP_NODELAY set
+05:42:32.152 [1630665752050-out] DEBUG com.intuit.karate - * Connected to epmwst04-03.corp.epm.com.co (10.1.16.46) port 443 (#0)
+05:42:32.153 [1630665752050-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 1/3)
+05:42:32.154 [1630665752050-out] DEBUG com.intuit.karate - * schannel: checking server certificate revocation
+05:42:32.159 [1630665752050-out] DEBUG com.intuit.karate - * schannel: sending initial handshake data: sending 198 bytes...
+05:42:32.160 [1630665752050-out] DEBUG com.intuit.karate - * schannel: sent initial handshake data: sent 198 bytes
+05:42:32.160 [1630665752050-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:42:32.160 [1630665752050-out] DEBUG com.intuit.karate - * schannel: failed to receive handshake, need more data
+05:42:32.199 [1630665752050-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:42:32.200 [1630665752050-out] DEBUG com.intuit.karate - * schannel: encrypted data got 2620
+05:42:32.201 [1630665752050-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 2620 length 4096
+05:42:32.202 [1630665752050-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:42:32.202 [1630665752050-out] DEBUG com.intuit.karate - 
+05:42:32.202 [1630665752050-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:42:32.203 [1630665752050-out] DEBUG com.intuit.karate - * schannel: encrypted data got 1476
+05:42:32.203 [1630665752050-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 4096 length 4096
+05:42:32.203 [1630665752050-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:42:32.203 [1630665752050-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:42:32.204 [1630665752050-out] DEBUG com.intuit.karate - * schannel: encrypted data got 231
+05:42:32.205 [1630665752050-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 4327 length 5120
+05:42:32.332 [1630665752050-out] DEBUG com.intuit.karate - * schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:42:32.333 [1630665752050-out] DEBUG com.intuit.karate - 
+05:42:32.334 [1630665752050-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:42:32.334 [1630665752050-out] DEBUG com.intuit.karate - * Closing connection 0
+05:42:32.335 [1630665752050-out] DEBUG com.intuit.karate - * schannel: shutting down SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443
+05:42:32.336 [1630665752050-out] DEBUG com.intuit.karate - * schannel: clear security context handle
+05:42:32.336 [1630665752050-out] DEBUG com.intuit.karate - curl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:42:32.342 [1630665752050] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 77 - [curl, -X, GET, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8] working dir: null
+05:42:32.370 [main] WARN  com.intuit.karate - failed to find pattern: some(pattern).+
+05:42:32.786 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > 'Authorization': null
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+05:42:33.062 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:13
+When method post
+org/apache/commons/codec/binary/Base64
+classpath:soap/consultas/consulta.feature:13
+05:42:34.114 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:43:19.147 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:43:19.154 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630665799151
+05:43:20.844 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:43:27.032 [1630665807030] DEBUG com.intuit.karate - command: [curl, -X, GET, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8], working dir: null
+05:43:27.089 [1630665807030-out] DEBUG com.intuit.karate - Note: Unnecessary use of -X or --request, GET is already inferred.
+05:43:27.090 [1630665807030-out] DEBUG com.intuit.karate -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+05:43:27.090 [1630665807030-out] DEBUG com.intuit.karate -                                  Dload  Upload   Total   Spent    Left  Speed
+05:43:27.090 [1630665807030-out] DEBUG com.intuit.karate - 
+05:43:27.117 [1630665807030-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.16.46...
+05:43:27.118 [1630665807030-out] DEBUG com.intuit.karate - * TCP_NODELAY set
+05:43:27.133 [1630665807030-out] DEBUG com.intuit.karate - * Connected to epmwst04-03.corp.epm.com.co (10.1.16.46) port 443 (#0)
+05:43:27.133 [1630665807030-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 1/3)
+05:43:27.134 [1630665807030-out] DEBUG com.intuit.karate - * schannel: checking server certificate revocation
+05:43:27.140 [1630665807030-out] DEBUG com.intuit.karate - * schannel: sending initial handshake data: sending 198 bytes...
+05:43:27.141 [1630665807030-out] DEBUG com.intuit.karate - * schannel: sent initial handshake data: sent 198 bytes
+05:43:27.141 [1630665807030-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:43:27.141 [1630665807030-out] DEBUG com.intuit.karate - * schannel: failed to receive handshake, need more data
+05:43:27.162 [1630665807030-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:43:27.162 [1630665807030-out] DEBUG com.intuit.karate - * schannel: encrypted data got 2620
+05:43:27.163 [1630665807030-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 2620 length 4096
+05:43:27.164 [1630665807030-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:43:27.164 [1630665807030-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:43:27.164 [1630665807030-out] DEBUG com.intuit.karate - * schannel: encrypted data got 1310
+05:43:27.165 [1630665807030-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 3930 length 4096
+05:43:27.165 [1630665807030-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:43:27.165 [1630665807030-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:43:27.165 [1630665807030-out] DEBUG com.intuit.karate - * schannel: encrypted data got 397
+05:43:27.166 [1630665807030-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 4327 length 4954
+05:43:27.179 [1630665807030-out] DEBUG com.intuit.karate - * schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:43:27.180 [1630665807030-out] DEBUG com.intuit.karate - 
+05:43:27.181 [1630665807030-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:43:27.181 [1630665807030-out] DEBUG com.intuit.karate - * Closing connection 0
+05:43:27.182 [1630665807030-out] DEBUG com.intuit.karate - * schannel: shutting down SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443
+05:43:27.183 [1630665807030-out] DEBUG com.intuit.karate - * schannel: clear security context handle
+05:43:27.183 [1630665807030-out] DEBUG com.intuit.karate - curl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:43:27.189 [1630665807030] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 77 - [curl, -X, GET, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8] working dir: null
+05:43:27.336 [main] INFO  com.intuit.karate - [print] Note: Unnecessary use of -X or --request, GET is already inferred.  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.16.46...* TCP_NODELAY set* Connected to epmwst04-03.corp.epm.com.co (10.1.16.46) port 443 (#0)* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 1/3)* schannel: checking server certificate revocation* schannel: sending initial handshake data: sending 198 bytes...* schannel: sent initial handshake data: sent 198 bytes* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: failed to receive handshake, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 2620* schannel: encrypted data buffer: offset 2620 length 4096* schannel: received incomplete message, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 1310* schannel: encrypted data buffer: offset 3930 length 4096* schannel: received incomplete message, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 397* schannel: encrypted data buffer: offset 4327 length 4954* schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Closing connection 0* schannel: shutting down SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443* schannel: clear security context handlecurl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a. 
+05:43:27.389 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+And header 'Authorization' = token
+js failed:
+>>>>
+01: token
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:soap/consultas/consulta.feature:12
+05:43:28.438 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:44:57.519 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:44:57.525 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630665897524
+05:44:59.175 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:45:05.541 [1630665905541] DEBUG com.intuit.karate - command: [curl, GET, https://epmwst04-03.corp.epm.com.co, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8], working dir: null
+05:45:05.596 [1630665905541-out] DEBUG com.intuit.karate - * Rebuilt URL to: GET/
+05:45:05.597 [1630665905541-out] DEBUG com.intuit.karate -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+05:45:05.597 [1630665905541-out] DEBUG com.intuit.karate -                                  Dload  Upload   Total   Spent    Left  Speed
+05:45:05.597 [1630665905541-out] DEBUG com.intuit.karate - 
+05:45:07.159 [1630665905541-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:45:08.160 [1630665905541-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+05:45:09.181 [1630665905541-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+05:45:10.190 [1630665905541-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+05:45:11.199 [1630665905541-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+05:45:12.210 [1630665905541-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: GET
+05:45:12.211 [1630665905541-out] DEBUG com.intuit.karate - * Closing connection 0
+05:45:12.211 [1630665905541-out] DEBUG com.intuit.karate - curl: (6) Could not resolve host: GET
+05:45:12.211 [1630665905541-out] DEBUG com.intuit.karate - * Rebuilt URL to: https://epmwst04-03.corp.epm.com.co/
+05:45:12.212 [1630665905541-out] DEBUG com.intuit.karate - 
+05:45:12.236 [1630665905541-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.16.46...
+05:45:12.237 [1630665905541-out] DEBUG com.intuit.karate - * TCP_NODELAY set
+05:45:12.241 [1630665905541-out] DEBUG com.intuit.karate - * Connected to epmwst04-03.corp.epm.com.co (10.1.16.46) port 443 (#1)
+05:45:12.256 [1630665905541-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 1/3)
+05:45:12.257 [1630665905541-out] DEBUG com.intuit.karate - * schannel: checking server certificate revocation
+05:45:12.262 [1630665905541-out] DEBUG com.intuit.karate - * schannel: sending initial handshake data: sending 198 bytes...
+05:45:12.264 [1630665905541-out] DEBUG com.intuit.karate - * schannel: sent initial handshake data: sent 198 bytes
+05:45:12.265 [1630665905541-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:45:12.265 [1630665905541-out] DEBUG com.intuit.karate - * schannel: failed to receive handshake, need more data
+05:45:12.282 [1630665905541-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:45:12.283 [1630665905541-out] DEBUG com.intuit.karate - * schannel: encrypted data got 2620
+05:45:12.283 [1630665905541-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 2620 length 4096
+05:45:12.284 [1630665905541-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:45:12.284 [1630665905541-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:45:12.286 [1630665905541-out] DEBUG com.intuit.karate - * schannel: encrypted data got 1310
+05:45:12.286 [1630665905541-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 3930 length 4096
+05:45:12.287 [1630665905541-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:45:12.287 [1630665905541-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:45:12.287 [1630665905541-out] DEBUG com.intuit.karate - * schannel: encrypted data got 397
+05:45:12.287 [1630665905541-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 4327 length 4954
+05:45:12.294 [1630665905541-out] DEBUG com.intuit.karate - * schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:45:12.295 [1630665905541-out] DEBUG com.intuit.karate - 
+05:45:12.295 [1630665905541-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:45:12.296 [1630665905541-out] DEBUG com.intuit.karate - * Closing connection 1
+05:45:12.297 [1630665905541-out] DEBUG com.intuit.karate - * schannel: shutting down SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443
+05:45:12.298 [1630665905541-out] DEBUG com.intuit.karate - * schannel: clear security context handle
+05:45:12.299 [1630665905541-out] DEBUG com.intuit.karate - curl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:45:12.305 [1630665905541] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 77 - [curl, GET, https://epmwst04-03.corp.epm.com.co, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8] working dir: null
+05:45:12.389 [main] INFO  com.intuit.karate - [print] * Rebuilt URL to: GET/  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: GET* Closing connection 0curl: (6) Could not resolve host: GET* Rebuilt URL to: https://epmwst04-03.corp.epm.com.co/  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.16.46...* TCP_NODELAY set* Connected to epmwst04-03.corp.epm.com.co (10.1.16.46) port 443 (#1)* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 1/3)* schannel: checking server certificate revocation* schannel: sending initial handshake data: sending 198 bytes...* schannel: sent initial handshake data: sent 198 bytes* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: failed to receive handshake, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 2620* schannel: encrypted data buffer: offset 2620 length 4096* schannel: received incomplete message, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 1310* schannel: encrypted data buffer: offset 3930 length 4096* schannel: received incomplete message, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 397* schannel: encrypted data buffer: offset 4327 length 4954* schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Closing connection 1* schannel: shutting down SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443* schannel: clear security context handlecurl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a. 
+05:45:12.437 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+And header 'Authorization' = token
+js failed:
+>>>>
+01: token
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:soap/consultas/consulta.feature:12
+05:45:13.431 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:46:10.563 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:46:10.571 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630665970567
+05:46:12.099 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:46:18.102 [1630665978101] DEBUG com.intuit.karate - command: [curl, POST, https://epmwst04-03.corp.epm.com.co, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8], working dir: null
+05:46:18.176 [1630665978101-out] DEBUG com.intuit.karate - * Rebuilt URL to: POST/
+05:46:18.177 [1630665978101-out] DEBUG com.intuit.karate -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+05:46:18.178 [1630665978101-out] DEBUG com.intuit.karate -                                  Dload  Upload   Total   Spent    Left  Speed
+05:46:18.178 [1630665978101-out] DEBUG com.intuit.karate - 
+05:46:18.220 [1630665978101-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:46:19.723 [1630665978101-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:46:20.731 [1630665978101-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+05:46:21.735 [1630665978101-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+05:46:22.749 [1630665978101-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+05:46:23.755 [1630665978101-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+05:46:24.760 [1630665978101-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: POST
+05:46:24.761 [1630665978101-out] DEBUG com.intuit.karate - * Closing connection 0
+05:46:24.762 [1630665978101-out] DEBUG com.intuit.karate - curl: (6) Could not resolve host: POST
+05:46:24.763 [1630665978101-out] DEBUG com.intuit.karate - * Rebuilt URL to: https://epmwst04-03.corp.epm.com.co/
+05:46:24.763 [1630665978101-out] DEBUG com.intuit.karate - 
+05:46:24.790 [1630665978101-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.16.46...
+05:46:24.791 [1630665978101-out] DEBUG com.intuit.karate - * TCP_NODELAY set
+05:46:24.808 [1630665978101-out] DEBUG com.intuit.karate - * Connected to epmwst04-03.corp.epm.com.co (10.1.16.46) port 443 (#1)
+05:46:24.809 [1630665978101-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 1/3)
+05:46:24.811 [1630665978101-out] DEBUG com.intuit.karate - * schannel: checking server certificate revocation
+05:46:24.817 [1630665978101-out] DEBUG com.intuit.karate - * schannel: sending initial handshake data: sending 198 bytes...
+05:46:24.817 [1630665978101-out] DEBUG com.intuit.karate - * schannel: sent initial handshake data: sent 198 bytes
+05:46:24.817 [1630665978101-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:46:24.817 [1630665978101-out] DEBUG com.intuit.karate - * schannel: failed to receive handshake, need more data
+05:46:24.838 [1630665978101-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:46:24.840 [1630665978101-out] DEBUG com.intuit.karate - * schannel: encrypted data got 2620
+05:46:24.841 [1630665978101-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 2620 length 4096
+05:46:24.841 [1630665978101-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:46:24.841 [1630665978101-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:46:24.842 [1630665978101-out] DEBUG com.intuit.karate - * schannel: encrypted data got 1310
+05:46:24.842 [1630665978101-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 3930 length 4096
+05:46:24.842 [1630665978101-out] DEBUG com.intuit.karate - * schannel: received incomplete message, need more data
+05:46:24.842 [1630665978101-out] DEBUG com.intuit.karate - * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:46:24.844 [1630665978101-out] DEBUG com.intuit.karate - * schannel: encrypted data got 397
+05:46:24.844 [1630665978101-out] DEBUG com.intuit.karate - * schannel: encrypted data buffer: offset 4327 length 4954
+05:46:24.851 [1630665978101-out] DEBUG com.intuit.karate - * schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:46:24.852 [1630665978101-out] DEBUG com.intuit.karate - 
+05:46:24.853 [1630665978101-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:46:24.853 [1630665978101-out] DEBUG com.intuit.karate - * Closing connection 1
+05:46:24.854 [1630665978101-out] DEBUG com.intuit.karate - * schannel: shutting down SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443
+05:46:24.855 [1630665978101-out] DEBUG com.intuit.karate - * schannel: clear security context handle
+05:46:24.855 [1630665978101-out] DEBUG com.intuit.karate - curl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:46:24.863 [1630665978101] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 77 - [curl, POST, https://epmwst04-03.corp.epm.com.co, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8] working dir: null
+05:46:24.962 [main] INFO  com.intuit.karate - [print] * Rebuilt URL to: POST/  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: POST* Closing connection 0curl: (6) Could not resolve host: POST* Rebuilt URL to: https://epmwst04-03.corp.epm.com.co/  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.16.46...* TCP_NODELAY set* Connected to epmwst04-03.corp.epm.com.co (10.1.16.46) port 443 (#1)* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 1/3)* schannel: checking server certificate revocation* schannel: sending initial handshake data: sending 198 bytes...* schannel: sent initial handshake data: sent 198 bytes* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: failed to receive handshake, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 2620* schannel: encrypted data buffer: offset 2620 length 4096* schannel: received incomplete message, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 1310* schannel: encrypted data buffer: offset 3930 length 4096* schannel: received incomplete message, need more data* schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 397* schannel: encrypted data buffer: offset 4327 length 4954* schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Closing connection 1* schannel: shutting down SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443* schannel: clear security context handlecurl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a. 
+05:46:25.033 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+And header 'Authorization' = token
+js failed:
+>>>>
+01: token
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:soap/consultas/consulta.feature:12
+05:46:27.190 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:50:09.104 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:50:09.109 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630666209108
+05:50:10.553 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:50:16.831 [1630666216831] DEBUG com.intuit.karate - command: [curl, POST, 'https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc', -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8], working dir: null
+05:50:16.928 [1630666216831-out] DEBUG com.intuit.karate - * Rebuilt URL to: POST/
+05:50:16.928 [1630666216831-out] DEBUG com.intuit.karate -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+05:50:16.928 [1630666216831-out] DEBUG com.intuit.karate -                                  Dload  Upload   Total   Spent    Left  Speed
+05:50:16.928 [1630666216831-out] DEBUG com.intuit.karate - 
+05:50:17.231 [1630666216831-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:50:18.523 [1630666216831-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:50:19.529 [1630666216831-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+05:50:20.542 [1630666216831-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+05:50:21.551 [1630666216831-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+05:50:22.551 [1630666216831-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0* Could not resolve host: POST
+05:50:22.553 [1630666216831-out] DEBUG com.intuit.karate - * Closing connection 0
+05:50:22.553 [1630666216831-out] DEBUG com.intuit.karate - curl: (6) Could not resolve host: POST
+05:50:22.553 [1630666216831-out] DEBUG com.intuit.karate - * Protocol "'https" not supported or disabled in libcurl
+05:50:22.554 [1630666216831-out] DEBUG com.intuit.karate - * Closing connection -1
+05:50:22.554 [1630666216831-out] DEBUG com.intuit.karate - curl: (1) Protocol "'https" not supported or disabled in libcurl
+05:50:22.559 [1630666216831] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [curl, POST, 'https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc', -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8] working dir: null
+05:50:22.635 [main] INFO  com.intuit.karate - [print] * Rebuilt URL to: POST/  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0* Could not resolve host: POST* Closing connection 0curl: (6) Could not resolve host: POST* Protocol "'https" not supported or disabled in libcurl* Closing connection -1curl: (1) Protocol "'https" not supported or disabled in libcurl 
+05:50:22.676 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+And header 'Authorization' = token
+js failed:
+>>>>
+01: token
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:soap/consultas/consulta.feature:12
+05:50:23.808 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:51:00.420 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:51:00.512 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630666260426
+05:51:02.110 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:51:07.810 [1630666267809] DEBUG com.intuit.karate - command: [curl, POST, 'http://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc', -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8], working dir: null
+05:51:07.903 [1630666267809-out] DEBUG com.intuit.karate - * Rebuilt URL to: POST/
+05:51:07.904 [1630666267809-out] DEBUG com.intuit.karate -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+05:51:07.904 [1630666267809-out] DEBUG com.intuit.karate -                                  Dload  Upload   Total   Spent    Left  Speed
+05:51:07.904 [1630666267809-out] DEBUG com.intuit.karate - 
+05:51:08.243 [1630666267809-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:51:09.515 [1630666267809-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:51:10.536 [1630666267809-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+05:51:11.545 [1630666267809-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+05:51:12.556 [1630666267809-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+05:51:13.569 [1630666267809-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+05:51:14.586 [1630666267809-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: POST
+05:51:14.588 [1630666267809-out] DEBUG com.intuit.karate - * Closing connection 0
+05:51:14.588 [1630666267809-out] DEBUG com.intuit.karate - curl: (6) Could not resolve host: POST
+05:51:14.589 [1630666267809-out] DEBUG com.intuit.karate - * Protocol "'http" not supported or disabled in libcurl
+05:51:14.589 [1630666267809-out] DEBUG com.intuit.karate - * Closing connection -1
+05:51:14.589 [1630666267809-out] DEBUG com.intuit.karate - curl: (1) Protocol "'http" not supported or disabled in libcurl
+05:51:14.595 [1630666267809] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [curl, POST, 'http://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc', -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8] working dir: null
+05:51:14.670 [main] INFO  com.intuit.karate - [print] * Rebuilt URL to: POST/  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: POST* Closing connection 0curl: (6) Could not resolve host: POST* Protocol "'http" not supported or disabled in libcurl* Closing connection -1curl: (1) Protocol "'http" not supported or disabled in libcurl 
+05:51:14.714 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+And header 'Authorization' = token
+js failed:
+>>>>
+01: token
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:soap/consultas/consulta.feature:12
+05:51:15.675 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:51:49.834 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:51:49.844 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630666309843
+05:51:51.442 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:51:57.478 [1630666317476] DEBUG com.intuit.karate - command: [curl, GET, 'http://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc', -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8], working dir: null
+05:51:57.577 [1630666317476-out] DEBUG com.intuit.karate - * Rebuilt URL to: GET/
+05:51:57.578 [1630666317476-out] DEBUG com.intuit.karate -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+05:51:57.578 [1630666317476-out] DEBUG com.intuit.karate -                                  Dload  Upload   Total   Spent    Left  Speed
+05:51:57.578 [1630666317476-out] DEBUG com.intuit.karate - 
+05:51:59.154 [1630666317476-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:52:00.161 [1630666317476-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+05:52:01.171 [1630666317476-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+05:52:02.177 [1630666317476-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+05:52:03.194 [1630666317476-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+05:52:04.199 [1630666317476-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: GET
+05:52:04.199 [1630666317476-out] DEBUG com.intuit.karate - * Closing connection 0
+05:52:04.199 [1630666317476-out] DEBUG com.intuit.karate - curl: (6) Could not resolve host: GET
+05:52:04.201 [1630666317476-out] DEBUG com.intuit.karate - * Protocol "'http" not supported or disabled in libcurl
+05:52:04.202 [1630666317476-out] DEBUG com.intuit.karate - * Closing connection -1
+05:52:04.202 [1630666317476-out] DEBUG com.intuit.karate - curl: (1) Protocol "'http" not supported or disabled in libcurl
+05:52:04.208 [1630666317476] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [curl, GET, 'http://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc', -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8] working dir: null
+05:52:04.290 [main] INFO  com.intuit.karate - [print] * Rebuilt URL to: GET/  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: GET* Closing connection 0curl: (6) Could not resolve host: GET* Protocol "'http" not supported or disabled in libcurl* Closing connection -1curl: (1) Protocol "'http" not supported or disabled in libcurl 
+05:52:04.343 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+And header 'Authorization' = token
+js failed:
+>>>>
+01: token
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:soap/consultas/consulta.feature:12
+05:52:05.614 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+05:52:35.605 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:52:35.611 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630666355606
+05:52:37.279 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:52:43.866 [1630666363865] DEBUG com.intuit.karate - command: [curl, GET, 'https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc', -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8], working dir: null
+05:52:43.926 [1630666363865-out] DEBUG com.intuit.karate - * Rebuilt URL to: GET/
+05:52:43.926 [1630666363865-out] DEBUG com.intuit.karate -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+05:52:43.927 [1630666363865-out] DEBUG com.intuit.karate -                                  Dload  Upload   Total   Spent    Left  Speed
+05:52:43.927 [1630666363865-out] DEBUG com.intuit.karate - 
+05:52:44.243 [1630666363865-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:52:45.520 [1630666363865-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:52:46.535 [1630666363865-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+05:52:47.549 [1630666363865-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+05:52:48.553 [1630666363865-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+05:52:49.566 [1630666363865-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0* Could not resolve host: GET
+05:52:49.567 [1630666363865-out] DEBUG com.intuit.karate - * Closing connection 0
+05:52:49.568 [1630666363865-out] DEBUG com.intuit.karate - curl: (6) Could not resolve host: GET
+05:52:49.568 [1630666363865-out] DEBUG com.intuit.karate - * Protocol "'https" not supported or disabled in libcurl
+05:52:49.569 [1630666363865-out] DEBUG com.intuit.karate - * Closing connection -1
+05:52:49.569 [1630666363865-out] DEBUG com.intuit.karate - curl: (1) Protocol "'https" not supported or disabled in libcurl
+05:52:49.573 [1630666363865] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [curl, GET, 'https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc', -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8] working dir: null
+05:52:49.654 [main] INFO  com.intuit.karate - [print] * Rebuilt URL to: GET/  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0* Could not resolve host: GET* Closing connection 0curl: (6) Could not resolve host: GET* Protocol "'https" not supported or disabled in libcurl* Closing connection -1curl: (1) Protocol "'https" not supported or disabled in libcurl 
+05:52:49.705 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+And header 'Authorization' = token
+js failed:
+>>>>
+01: token
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:soap/consultas/consulta.feature:12
+05:52:50.816 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature

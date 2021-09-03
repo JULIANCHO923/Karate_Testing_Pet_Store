@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>soap.consultas.consulta</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-09-03 05:33:48 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1.1:19]"><span>[1.1:19]</span> <span>soap 1.2</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">soap/consultas/consulta.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Consultar Informacion Direccion</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:19]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:19]</span>
+                <span class="scenario-name">soap 1.2</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>6838</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:19]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">05:33:41.781 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = { trustAll: true }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6547</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request read(&#39;request.xml&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">49</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/soap+xml; charset=utf-8; action=&quot;http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion&quot;&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#    And header &#39;Authorization&#39; = result</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#When method &lt;method&gt;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>karate.exec(&quot;curl -X POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc -v --ntlm --negotiate -u epm\jhenaoqu:JhhqrvogvL92#%8&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">237</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.13">05:33:48.434 command: [curl, -X, POST, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc, -v, --ntlm, --negotiate, -u, epmjhenaoqu:JhhqrvogvL92#%8], working dir: null
+05:33:48.507   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+05:33:48.507                                  Dload  Upload   Total   Spent    Left  Speed
+05:33:48.507 
+05:33:48.532   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.16.46...
+05:33:48.532 * TCP_NODELAY set
+05:33:48.552 * Connected to epmwst04-03.corp.epm.com.co (10.1.16.46) port 443 (#0)
+05:33:48.552 * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 1/3)
+05:33:48.552 * schannel: checking server certificate revocation
+05:33:48.554 * schannel: sending initial handshake data: sending 198 bytes...
+05:33:48.554 * schannel: sent initial handshake data: sent 198 bytes
+05:33:48.554 * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:33:48.554 * schannel: failed to receive handshake, need more data
+05:33:48.578 * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:33:48.578 * schannel: encrypted data got 1310
+05:33:48.579 * schannel: encrypted data buffer: offset 1310 length 4096
+05:33:48.579 * schannel: received incomplete message, need more data
+05:33:48.579 * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:33:48.579 * schannel: encrypted data got 1310
+05:33:48.579 * schannel: encrypted data buffer: offset 2620 length 4096
+05:33:48.579 * schannel: received incomplete message, need more data
+05:33:48.579 * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:33:48.579 * schannel: encrypted data got 1310
+05:33:48.580 * schannel: encrypted data buffer: offset 3930 length 4096
+05:33:48.580 * schannel: received incomplete message, need more data
+05:33:48.580 * schannel: SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443 (step 2/3)
+05:33:48.580 * schannel: encrypted data got 397
+05:33:48.580 * schannel: encrypted data buffer: offset 4327 length 4954
+05:33:48.659 * schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+05:33:48.659 
+05:33:48.659   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+05:33:48.659 * Closing connection 0
+05:33:48.660 * schannel: shutting down SSL/TLS connection with epmwst04-03.corp.epm.com.co port 443
+05:33:48.660 * schannel: clear security context handle
+05:33:48.661 curl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref failed">14</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.14">05:33:48.668 classpath:soap/consultas/consulta.feature:14
+Then status 200
+java.lang.NullPointerException
+classpath:soap/consultas/consulta.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref skipped">15</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match /Envelope/Body/AddResponse ==read(&#39;expected.xml&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.16">
+      <div class="step-ref skipped">16</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print &#39;response: &#39;, response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

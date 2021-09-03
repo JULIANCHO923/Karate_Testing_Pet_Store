@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>soap.consultas.consulta</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-09-02 07:04:59 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1.1:30]"><span>[1.1:30]</span> <span>soap 1.2</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">soap/consultas/consulta.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Consultar Informacion Direccion</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:30]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:30]</span>
+                <span class="scenario-name">soap 1.2</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>7708</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:30]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">07:04:51.373 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = { trustAll: true }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7543</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def parseJwt =</span>
+      </div>
+    </div>
+    <div class="time-cell failed">163</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.6">function(token) {
+    var base64Url = token.split(&#39;.&#39;)[1];
+    var base64Str = base64Url.replace(/-/g, &#39;+&#39;).replace(/_/g, &#39;/&#39;);
+    var Base64 = Java.type(&#39;java.util.Base64&#39;);
+    var decoded = Base64.getDecoder().decode(base64Str);
+    var String = Java.type(&#39;java.lang.String&#39;)
+    return &quot;NTLM &quot;+new String(decoded)
+};</div>
+
+  
+
+  <div class="preformatted" data-parent="1.6">07:04:59.138 classpath:soap/consultas/consulta.feature:6
+* def parseJwt =
+&quot;&quot;&quot;
+function(token) {
+    var base64Url = token.split(&#39;.&#39;)[1];
+    var base64Str = base64Url.replace(/-/g, &#39;+&#39;).replace(/_/g, &#39;/&#39;);
+    var Base64 = Java.type(&#39;java.util.Base64&#39;);
+    var decoded = Base64.getDecoder().decode(base64Str);
+    var String = Java.type(&#39;java.lang.String&#39;)
+    return &quot;NTLM &quot;+new String(decoded)
+};
+&quot;&quot;&quot;
+js failed:
+&gt;&gt;&gt;&gt;
+01: (function(token) {
+02:     var base64Url = token.split(&#39;.&#39;)[1];
+03:     var base64Str = base64Url.replace(/-/g, &#39;+&#39;).replace(/_/g, &#39;/&#39;);
+04:     var Base64 = Java.type(&#39;java.util.Base64&#39;);
+05:     var decoded = Base64.getDecoder().decode(base64Str);
+06:     var String = Java.type(&#39;java.lang.String&#39;)
+07:     return &quot;NTLM &quot;+new String(decoded)
+08: };)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:8:1 Expected ) but found ;
+};)
+ ^
+Unnamed:8:2 Expected ; but found )
+};)
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1316)
+
+classpath:soap/consultas/consulta.feature:6
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>request read(&#39;request.xml&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/soap+xml; charset=utf-8; action=&quot;http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion&quot;&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.23">
+      <div class="step-ref skipped">23</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>header Authorization = parseJwt(&#39;TlRMTVNTUAADAAAAGAAYAEAAAADeAN4AWAAAAAYABgA2AQAAEAAQADwBAAAaABoATAEAAAAAAABmAQAANQIIIGHMnNgh/3svv1cOnxSsQruGrfB+uqXwZSQoP3kejeLVDw2hzbMdWXoBAQAAAAAAADCsr6Txn9cBhq3wfrql8GUAAAAAAgAGAEUAUABNAAEAFgBFAFAATQBXAFMAVAAwADQALQAwADMABAAeAGMAbwByAHAALgBlAHAAbQAuAGMAbwBtAC4AYwBvAAMANgBFAFAATQBXAFMAVAAwADQALQAwADMALgBjAG8AcgBwAC4AZQBwAG0ALgBjAG8AbQAuAGMAbwAFAB4AYwBvAHIAcAAuAGUAcABtAC4AYwBvAG0ALgBjAG8ABwAIAPAJrKTxn9cBAAAAAEUAUABNAGoAaABlAG4AYQBvAHEAdQBKAFUATABJAEEATgBQAC0ASABFAE4AQQBPAA==&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.24">
+      <div class="step-ref skipped">24</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match /Envelope/Body/AddResponse ==read(&#39;expected.xml&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.27">
+      <div class="step-ref skipped">27</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print &#39;response: &#39;, response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
