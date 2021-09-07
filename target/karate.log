@@ -2493,3 +2493,292 @@ org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
 
 classpath:soap/consultas/consulta.feature:12
 05:52:50.816 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+10:03:36.784 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:03:36.830 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1631027016794
+10:03:39.244 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:03:46.419 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:7
+* header Authorization = call read('basic-auth.js') { username: 'john', password: 'secret' }
+js failed:
+>>>>
+01: read('basic-auth.js')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: D:\EPM\EPM_CAPACITACIONES\hidro-pruebas-automatizadas-rendimiento\target\test-classes\soap\consultas\basic-auth.js (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:57)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:soap/consultas/consulta.feature:7
+10:03:47.905 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+10:04:28.522 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:04:28.528 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1631027068527
+10:04:30.107 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:04:36.135 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:11
+And print result
+js failed:
+>>>>
+01: karate.log('[print]',result)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "result" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:soap/consultas/consulta.feature:11
+10:04:37.243 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+10:05:00.573 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:05:00.581 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1631027100579
+10:05:02.372 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:05:11.478 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Authorization: Basic amhlbmFvcXU6SmhocXJ2b2d2TDkyMzUoMA==
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+10:05:12.211 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+When method post
+org/apache/commons/codec/binary/Base64
+classpath:soap/consultas/consulta.feature:12
+10:05:14.039 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+10:07:46.961 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:07:46.968 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1631027266967
+10:07:48.554 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:07:54.801 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Authorization: NTLM amhlbmFvcXU6SmhocXJ2b2d2TDkyMzUoMA==
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+10:07:55.332 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+When method post
+org/apache/commons/codec/binary/Base64
+classpath:soap/consultas/consulta.feature:12
+10:07:56.722 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+10:08:30.764 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:08:30.774 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1631027310773
+10:08:32.522 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:08:39.669 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Authorization: NTLM ZXBtXGpoZW5hb3F1OkpoaHFydm9ndkw5MjM1KDA=
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+10:08:40.074 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+When method post
+org/apache/commons/codec/binary/Base64
+classpath:soap/consultas/consulta.feature:12
+10:08:40.902 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+10:09:24.677 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:09:24.685 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1631027364684
+10:09:26.348 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:09:34.064 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Authorization: Basic ZXBtXGpoZW5hb3F1OkpoaHFydm9ndkw5MjM1KDA=
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+10:09:34.569 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+When method post
+org/apache/commons/codec/binary/Base64
+classpath:soap/consultas/consulta.feature:12
+10:09:35.603 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature
+10:12:49.640 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:12:49.645 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1631027569645
+10:12:51.326 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:13:00.970 [1631027580969] DEBUG com.intuit.karate - command: [curl, POST, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc-v, --ntlm, --negotiate, -uepm\jhenaoqu:JhhqrvogvL9235(0], working dir: null
+10:13:01.122 [1631027580969-out] DEBUG com.intuit.karate -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+10:13:01.123 [1631027580969-out] DEBUG com.intuit.karate -                                  Dload  Upload   Total   Spent    Left  Speed
+10:13:01.124 [1631027580969-out] DEBUG com.intuit.karate - 
+10:13:01.637 [1631027580969-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+10:13:02.638 [1631027580969-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+10:13:03.639 [1631027580969-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+10:13:04.641 [1631027580969-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+10:13:05.641 [1631027580969-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+10:13:06.644 [1631027580969-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+10:13:07.645 [1631027580969-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0curl: (6) Could not resolve host: POST
+10:13:07.647 [1631027580969-out] DEBUG com.intuit.karate - 
+10:13:08.124 [1631027580969-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+10:13:08.125 [1631027580969-out] DEBUG com.intuit.karate -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+10:13:08.129 [1631027580969-out] DEBUG com.intuit.karate - curl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+10:13:08.138 [1631027580969] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 77 - [curl, POST, https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc-v, --ntlm, --negotiate, -uepm\jhenaoqu:JhhqrvogvL9235(0] working dir: null
+10:13:09.043 [main] DEBUG com.intuit.karate - request:
+1 > POST https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 > Authorization:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0curl: (6) Could not resolve host: POST  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (77) schannel: next InitializeSecurityContext failed: SEC_E_UNTRUSTED_ROOT (0x80090325) - La cadena de certificaci�n fue emitida por una entidad en la que no se conf�a.
+1 > Content-Type: application/soap+xml; charset=utf-8; action="http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion"
+1 > Content-Length: 1311
+1 > Host: epmwst04-03.corp.epm.com.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:con="http://epm.com.co/aguas/hidro/contratoservicios" xmlns:con1="http://epm.com.co/aguas/hidro/contratodatos">
+    <soap:Header/>
+    <soap:Body>
+        <con:ConsultarInformacionDireccion>
+            <!--Optional:-->
+            <con:parametros>
+                <!--Optional:-->
+                <con1:Empresa>
+                    <con1:IdEmpresa>1</con1:IdEmpresa>
+                </con1:Empresa>
+                <con1:Direccion>CL 39 CR 90 -40</con1:Direccion>
+                <con1:GeometriaDireccion><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<SdoGeometry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Point>
+    <X>-75.6104383</X>
+    <Y>6.25038138</Y>
+    <Z xsi:nil="true" />
+  </Point>
+  <Sdo_Gtype>2001</Sdo_Gtype>
+  <Sdo_Srid>4326</Sdo_Srid>
+</SdoGeometry>]]></con1:GeometriaDireccion>
+                <!--Optional:-->
+                <con1:IdCiudad>1037</con1:IdCiudad>
+                <con1:PorDescargue>true</con1:PorDescargue>
+                <!--Optional:-->
+                <con1:RadioConsulta>200</con1:RadioConsulta>
+            </con:parametros>
+        </con:ConsultarInformacionDireccion>
+    </soap:Body>
+</soap:Envelope>
+
+10:13:09.827 [main] ERROR com.intuit.karate - classpath:soap/consultas/consulta.feature:12
+When method post
+org/apache/commons/codec/binary/Base64
+classpath:soap/consultas/consulta.feature:12
+10:13:12.482 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:soap/consultas/consulta.feature

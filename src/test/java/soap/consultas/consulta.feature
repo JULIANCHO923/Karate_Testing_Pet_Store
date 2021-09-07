@@ -3,13 +3,12 @@ Feature: Consultar Informacion Direccion
   Background:
     * url 'https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc'
     * configure ssl = { trustAll: true }
-    * def result = karate.exec("curl POST 'https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc' -v --ntlm --negotiate -u epm\jhenaoqu:JhhqrvogvL92#%8")
+    * header Authorization = call read('ntlm-auth.js') { url: 'https://epmwst04-03.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc', username: 'epm\\jhenaoqu', password: 'JhhqrvogvL9235(0' }
+    #* header Authorization = call read('basic-auth.js') { username: 'epm\\jhenaoqu', password: 'JhhqrvogvL9235(0' }
 
   Scenario Outline: soap 1.2
     Given request <body>
-    And print result
     And header <name> = <exp>
-    And header 'Authorization' = token
     When method <method>
     Then status <status>
     And match <exp1><op1><op2>
