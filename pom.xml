@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
- 
+
     <groupId>co.com.epm</groupId>
-    <artifactId>hidro-pruebas-automatizadas-rendimiento</artifactId>
+    <artifactId>pruebas-automatizadas-contrato</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
- 
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
@@ -21,16 +21,22 @@
             <artifactId>karate-junit5</artifactId>
             <version>${karate.version}</version>
             <scope>test</scope>
-        </dependency>		
+        </dependency>
+
+        <dependency>
+            <groupId>co.com.epm</groupId>
+            <artifactId>pruebas-automatizadas-contrato</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <classifier>tests</classifier>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
         <testResources>
             <testResource>
                 <directory>src/test/java</directory>
-                <excludes>
-                    <exclude>**/*.java</exclude>
-                </excludes>
             </testResource>
         </testResources>
         <plugins>
@@ -45,14 +51,30 @@
                     <compilerArgument>-Werror</compilerArgument>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven.surefire.version}</version>
                 <configuration>
-                    <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <dependenciesToScan>
+                        <dependency>co.com.epm:pruebas-automatizadas-contrato</dependency>
+                    </dependenciesToScan>
                 </configuration>
-            </plugin>          
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>test-jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>        
     </build>       
     
