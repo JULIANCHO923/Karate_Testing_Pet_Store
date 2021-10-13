@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>soap.consultas.consulta</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-09-10 06:26:33 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1.1:18]"><span>[1.1:18]</span> <span>soap 1.2</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">soap/consultas/consulta.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Consultar Informacion Direccion</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:18]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:18]</span>
+                <span class="scenario-name">soap 1.2</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>15312</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:18]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://epmwst04-04.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">06:26:18.268 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = { trustAll: true }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6566</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request read(&#39;request.xml&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">36</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = call read(&#39;ntlm-auth.js&#39;) { url: &#39;http://epmwst04-04.corp.epm.com.co&#39;, username: &#39;epm\\jhenaoqu&#39;, password: &#39;JhhqrvogvL9235(0&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7652</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.9">06:26:24.955 command: [curl, POST, http://epmwst04-04.corp.epm.com.co, -v, --ntlm, --negotiate, -u, epm\jhenaoqu:JhhqrvogvL9235(0], working dir: null
+06:26:25.020 * Rebuilt URL to: POST/
+06:26:25.021   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+06:26:25.021                                  Dload  Upload   Total   Spent    Left  Speed
+06:26:25.022 
+06:26:26.621   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+06:26:27.626   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+06:26:28.642   0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+06:26:29.651   0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+06:26:30.661   0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+06:26:31.665   0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: POST
+06:26:31.666 * Closing connection 0
+06:26:31.666 curl: (6) Could not resolve host: POST
+06:26:31.666 * Rebuilt URL to: http://epmwst04-04.corp.epm.com.co/
+06:26:31.666 
+06:26:31.681   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.17.31...
+06:26:31.681 * TCP_NODELAY set
+06:26:31.768 * Connected to epmwst04-04.corp.epm.com.co (10.1.17.31) port 80 (#1)
+06:26:31.769 &gt; GET / HTTP/1.1
+06:26:31.769 
+06:26:31.769 &gt; Host: epmwst04-04.corp.epm.com.co
+06:26:31.769 
+06:26:31.769 &gt; User-Agent: curl/7.55.1
+06:26:31.769 
+06:26:31.769 &gt; Accept: */*
+06:26:31.770 
+06:26:31.770 &gt; 
+06:26:31.770 
+06:26:32.570 &lt; HTTP/1.1 403 Forbidden
+06:26:32.570 
+06:26:32.570 &lt; Content-Type: text/html
+06:26:32.571 
+06:26:32.571 &lt; Server: Microsoft-IIS/10.0
+06:26:32.571 
+06:26:32.571 &lt; X-Powered-By: ASP.NET
+06:26:32.571 
+06:26:32.572 &lt; Date: Fri, 10 Sep 2021 11:26:32 GMT
+06:26:32.572 
+06:26:32.572 &lt; Content-Length: 1233
+06:26:32.572 
+06:26:32.572 &lt; 
+06:26:32.573 
+06:26:32.573 { [1233 bytes data]
+06:26:32.573 
+06:26:32.574 100  1233  100  1233    0     0   1233      0  0:00:01 --:--:--  0:00:01  1360
+06:26:32.574 100  1233  100  1233    0     0   1233      0  0:00:01 --:--:--  0:00:01  1360
+06:26:32.575 * Connection #1 to host epmwst04-04.corp.epm.com.co left intact
+06:26:32.575 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+06:26:32.576 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+06:26:32.576 &lt;head&gt;
+06:26:32.576 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;/&gt;
+06:26:32.577 &lt;title&gt;403 - Forbidden: Access is denied.&lt;/title&gt;
+06:26:32.577 &lt;style type=&quot;text/css&quot;&gt;
+06:26:32.577 &lt;!--
+06:26:32.578 body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+06:26:32.578 fieldset{padding:0 15px 10px 15px;} 
+06:26:32.578 h1{font-size:2.4em;margin:0;color:#FFF;}
+06:26:32.578 h2{font-size:1.7em;margin:0;color:#CC0000;} 
+06:26:32.579 h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+06:26:32.579 #header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:&quot;trebuchet MS&quot;, Verdana, sans-serif;color:#FFF;
+06:26:32.580 background-color:#555555;}
+06:26:32.580 #content{margin:0 0 0 2%;position:relative;}
+06:26:32.580 .content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+06:26:32.580 --&gt;
+06:26:32.581 &lt;/style&gt;
+06:26:32.581 &lt;/head&gt;
+06:26:32.581 &lt;body&gt;
+06:26:32.581 &lt;div id=&quot;header&quot;&gt;&lt;h1&gt;Server Error&lt;/h1&gt;&lt;/div&gt;
+06:26:32.581 &lt;div id=&quot;content&quot;&gt;
+06:26:32.582  &lt;div class=&quot;content-container&quot;&gt;&lt;fieldset&gt;
+06:26:32.582   &lt;h2&gt;403 - Forbidden: Access is denied.&lt;/h2&gt;
+06:26:32.582   &lt;h3&gt;You do not have permission to view this directory or page using the credentials that you supplied.&lt;/h3&gt;
+06:26:32.582  &lt;/fieldset&gt;&lt;/div&gt;
+06:26:32.582 &lt;/div&gt;
+06:26:32.582 &lt;/body&gt;
+06:26:32.582 &lt;/html&gt;
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/soap+xml; charset=utf-8&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header SOAPAction =  &#39;http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref failed">12</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1055</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.12">06:26:33.006 request:
+1 &gt; POST https://epmwst04-04.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 &gt; Authorization: * Rebuilt URL to: POST/  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: POST* Closing connection 0curl: (6) Could not resolve host: POST* Rebuilt URL to: http://epmwst04-04.corp.epm.com.co/  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.17.31...* TCP_NODELAY set* Connected to epmwst04-04.corp.epm.com.co (10.1.17.31) port 80 (#1)&gt; GET / HTTP/1.1&gt; Host: epmwst04-04.corp.epm.com.co&gt; User-Agent: curl/7.55.1&gt; Accept: */*&gt; &lt; HTTP/1.1 403 Forbidden&lt; Content-Type: text/html&lt; Server: Microsoft-IIS/10.0&lt; X-Powered-By: ASP.NET&lt; Date: Fri, 10 Sep 2021 11:26:32 GMT&lt; Content-Length: 1233&lt; { [1233 bytes data]100  1233  100  1233    0     0   1233      0  0:00:01 --:--:--  0:00:01  1360100  1233  100  1233    0     0   1233      0  0:00:01 --:--:--  0:00:01  1360* Connection #1 to host epmwst04-04.corp.epm.com.co left intact&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;head&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;/&gt;&lt;title&gt;403 - Forbidden: Access is denied.&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;&lt;!--body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}fieldset{padding:0 15px 10px 15px;} h1{font-size:2.4em;margin:0;color:#FFF;}h2{font-size:1.7em;margin:0;color:#CC0000;} h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} #header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:&quot;trebuchet MS&quot;, Verdana, sans-serif;color:#FFF;background-color:#555555;}#content{margin:0 0 0 2%;position:relative;}.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}--&gt;&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;header&quot;&gt;&lt;h1&gt;Server Error&lt;/h1&gt;&lt;/div&gt;&lt;div id=&quot;content&quot;&gt; &lt;div class=&quot;content-container&quot;&gt;&lt;fieldset&gt;  &lt;h2&gt;403 - Forbidden: Access is denied.&lt;/h2&gt;  &lt;h3&gt;You do not have permission to view this directory or page using the credentials that you supplied.&lt;/h3&gt; &lt;/fieldset&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+1 &gt; Content-Type: application/soap+xml; charset=utf-8
+1 &gt; SOAPAction: http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion
+1 &gt; Content-Length: 1311
+1 &gt; Host: epmwst04-04.corp.epm.com.co
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 &gt; Accept-Encoding: gzip,deflate
+&lt;soap:Envelope xmlns:soap=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:con=&quot;http://epm.com.co/aguas/hidro/contratoservicios&quot; xmlns:con1=&quot;http://epm.com.co/aguas/hidro/contratodatos&quot;&gt;
+    &lt;soap:Header/&gt;
+    &lt;soap:Body&gt;
+        &lt;con:ConsultarInformacionDireccion&gt;
+            &lt;!--Optional:--&gt;
+            &lt;con:parametros&gt;
+                &lt;!--Optional:--&gt;
+                &lt;con1:Empresa&gt;
+                    &lt;con1:IdEmpresa&gt;1&lt;/con1:IdEmpresa&gt;
+                &lt;/con1:Empresa&gt;
+                &lt;con1:Direccion&gt;CL 39 CR 90 -40&lt;/con1:Direccion&gt;
+                &lt;con1:GeometriaDireccion&gt;&lt;![CDATA[&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;SdoGeometry xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+  &lt;Point&gt;
+    &lt;X&gt;-75.6104383&lt;/X&gt;
+    &lt;Y&gt;6.25038138&lt;/Y&gt;
+    &lt;Z xsi:nil=&quot;true&quot; /&gt;
+  &lt;/Point&gt;
+  &lt;Sdo_Gtype&gt;2001&lt;/Sdo_Gtype&gt;
+  &lt;Sdo_Srid&gt;4326&lt;/Sdo_Srid&gt;
+&lt;/SdoGeometry&gt;]]&gt;&lt;/con1:GeometriaDireccion&gt;
+                &lt;!--Optional:--&gt;
+                &lt;con1:IdCiudad&gt;1037&lt;/con1:IdCiudad&gt;
+                &lt;con1:PorDescargue&gt;true&lt;/con1:PorDescargue&gt;
+                &lt;!--Optional:--&gt;
+                &lt;con1:RadioConsulta&gt;200&lt;/con1:RadioConsulta&gt;
+            &lt;/con:parametros&gt;
+        &lt;/con:ConsultarInformacionDireccion&gt;
+    &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;
+
+06:26:33.641 classpath:soap/consultas/consulta.feature:12
+When method post
+org/apache/commons/codec/binary/Base64
+classpath:soap/consultas/consulta.feature:12
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref skipped">13</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref skipped">14</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match /Envelope/Body/AddResponse ==read(&#39;expected.xml&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref skipped">15</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print &#39;response: &#39;, response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

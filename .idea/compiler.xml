@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hidro-pruebas-automatizadas-rendimiento" />
+        <module name="pruebas-automatizadas-contrato" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="hidro-pruebas-automatizadas-rendimiento" target="1.8" />
+      <module name="pruebas-automatizadas-contrato" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="hidro-pruebas-automatizadas-rendimiento" options="-Werror" />
+      <module name="pruebas-automatizadas-contrato" options="-Werror" />
     </option>
   </component>
 </project>

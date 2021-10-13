@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>soap.consultas.consulta</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-09-10 06:43:43 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1.1:18]"><span>[1.1:18]</span> <span>soap 1.2</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">soap/consultas/consulta.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Consultar Informacion Direccion</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:18]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:18]</span>
+                <span class="scenario-name">soap 1.2</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>10200</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:18]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://epmwst04-04.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">06:43:33.556 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = { trustAll: true }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2692</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>request read(&#39;request.xml&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">19</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = call read(&#39;ntlm-auth.js&#39;) { url: &#39;https://epmwst04-04.corp.epm.com.co&#39;, username: &#39;epm\\jhenaoqu&#39;, password: &#39;JhhqrvogvL9235(0&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6941</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.9">06:43:36.316 command: [curl, POST, -v, https://epmwst04-04.corp.epm.com.co, --ntlm, --negotiate, --insecure, --user, epm\jhenaoqu:JhhqrvogvL9235(0], working dir: null
+06:43:36.353 * Rebuilt URL to: POST/
+06:43:36.353   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+06:43:36.353                                  Dload  Upload   Total   Spent    Left  Speed
+06:43:36.353 
+06:43:37.952   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+06:43:38.967   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+06:43:39.983   0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+06:43:40.985   0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+06:43:41.988   0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+06:43:43.003   0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: POST
+06:43:43.003 * Closing connection 0
+06:43:43.003 curl: (6) Could not resolve host: POST
+06:43:43.003 * Rebuilt URL to: https://epmwst04-04.corp.epm.com.co/
+06:43:43.003 
+06:43:43.019   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.17.31...
+06:43:43.020 * TCP_NODELAY set
+06:43:43.020 
+06:43:43.069   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to epmwst04-04.corp.epm.com.co (10.1.17.31) port 443 (#1)
+06:43:43.069 * schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 1/3)
+06:43:43.070 * schannel: disabled server certificate revocation checks
+06:43:43.070 * schannel: verifyhost setting prevents Schannel from comparing the supplied target name with the subject names in server certificates.
+06:43:43.075 * schannel: sending initial handshake data: sending 189 bytes...
+06:43:43.075 * schannel: sent initial handshake data: sent 189 bytes
+06:43:43.075 * schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 2/3)
+06:43:43.075 * schannel: failed to receive handshake, need more data
+06:43:43.126 * schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 2/3)
+06:43:43.126 * schannel: encrypted data got 3930
+06:43:43.126 * schannel: encrypted data buffer: offset 3930 length 4096
+06:43:43.127 * schannel: received incomplete message, need more data
+06:43:43.128 * schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 2/3)
+06:43:43.128 * schannel: encrypted data got 397
+06:43:43.129 * schannel: encrypted data buffer: offset 4327 length 4954
+06:43:43.132 * schannel: sending next handshake data: sending 158 bytes...
+06:43:43.179 * schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 2/3)
+06:43:43.179 * schannel: encrypted data got 51
+06:43:43.180 * schannel: encrypted data buffer: offset 51 length 4954
+06:43:43.185 * schannel: SSL/TLS handshake complete
+06:43:43.185 * schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 3/3)
+06:43:43.185 * schannel: stored credential handle in session cache
+06:43:43.185 &gt; GET / HTTP/1.1
+06:43:43.185 
+06:43:43.185 &gt; Host: epmwst04-04.corp.epm.com.co
+06:43:43.186 
+06:43:43.186 &gt; User-Agent: curl/7.55.1
+06:43:43.186 
+06:43:43.186 &gt; Accept: */*
+06:43:43.186 
+06:43:43.186 &gt; 
+06:43:43.186 
+06:43:43.234 * schannel: client wants to read 102400 bytes
+06:43:43.235 * schannel: encdata_buffer resized 103424
+06:43:43.235 * schannel: encrypted data buffer: offset 0 length 103424
+06:43:43.235 * schannel: encrypted data got 1423
+06:43:43.235 * schannel: encrypted data buffer: offset 1423 length 103424
+06:43:43.235 * schannel: decrypted data length: 1394
+06:43:43.235 * schannel: decrypted data added: 1394
+06:43:43.236 * schannel: decrypted data cached: offset 1394 length 102400
+06:43:43.236 * schannel: encrypted data buffer: offset 0 length 103424
+06:43:43.236 * schannel: decrypted data buffer: offset 1394 length 102400
+06:43:43.236 * schannel: schannel_recv cleanup
+06:43:43.236 * schannel: decrypted data returned 1394
+06:43:43.236 * schannel: decrypted data buffer: offset 0 length 102400
+06:43:43.236 &lt; HTTP/1.1 403 Forbidden
+06:43:43.236 
+06:43:43.236 &lt; Content-Type: text/html
+06:43:43.236 
+06:43:43.236 &lt; Server: Microsoft-IIS/10.0
+06:43:43.240 
+06:43:43.240 &lt; X-Powered-By: ASP.NET
+06:43:43.240 
+06:43:43.240 &lt; Date: Fri, 10 Sep 2021 11:43:43 GMT
+06:43:43.240 
+06:43:43.240 &lt; Content-Length: 1233
+06:43:43.240 
+06:43:43.240 &lt; 
+06:43:43.240 
+06:43:43.240 { [1233 bytes data]
+06:43:43.240 
+06:43:43.241 100  1233  100  1233    0     0   1233      0  0:00:01 --:--:--  0:00:01  5269
+06:43:43.241 * Connection #1 to host epmwst04-04.corp.epm.com.co left intact
+06:43:43.241 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+06:43:43.241 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+06:43:43.241 &lt;head&gt;
+06:43:43.241 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;/&gt;
+06:43:43.241 &lt;title&gt;403 - Forbidden: Access is denied.&lt;/title&gt;
+06:43:43.241 &lt;style type=&quot;text/css&quot;&gt;
+06:43:43.241 &lt;!--
+06:43:43.241 body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+06:43:43.241 fieldset{padding:0 15px 10px 15px;} 
+06:43:43.241 h1{font-size:2.4em;margin:0;color:#FFF;}
+06:43:43.241 h2{font-size:1.7em;margin:0;color:#CC0000;} 
+06:43:43.241 h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+06:43:43.242 #header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:&quot;trebuchet MS&quot;, Verdana, sans-serif;color:#FFF;
+06:43:43.242 background-color:#555555;}
+06:43:43.242 #content{margin:0 0 0 2%;position:relative;}
+06:43:43.242 .content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+06:43:43.242 --&gt;
+06:43:43.242 &lt;/style&gt;
+06:43:43.242 &lt;/head&gt;
+06:43:43.242 &lt;body&gt;
+06:43:43.242 &lt;div id=&quot;header&quot;&gt;&lt;h1&gt;Server Error&lt;/h1&gt;&lt;/div&gt;
+06:43:43.242 &lt;div id=&quot;content&quot;&gt;
+06:43:43.242  &lt;div class=&quot;content-container&quot;&gt;&lt;fieldset&gt;
+06:43:43.242   &lt;h2&gt;403 - Forbidden: Access is denied.&lt;/h2&gt;
+06:43:43.242   &lt;h3&gt;You do not have permission to view this directory or page using the credentials that you supplied.&lt;/h3&gt;
+06:43:43.242  &lt;/fieldset&gt;&lt;/div&gt;
+06:43:43.242 &lt;/div&gt;
+06:43:43.242 &lt;/body&gt;
+06:43:43.243 &lt;/html&gt;
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/soap+xml; charset=utf-8&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header SOAPAction =  &#39;http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref failed">12</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell failed">545</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.12">06:43:43.434 request:
+1 &gt; POST https://epmwst04-04.corp.epm.com.co/WCFWSHidroServicioNegocio/Servicios/Solicitudes/Llamada.svc
+1 &gt; Authorization: * Rebuilt URL to: POST/  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0* Could not resolve host: POST* Closing connection 0curl: (6) Could not resolve host: POST* Rebuilt URL to: https://epmwst04-04.corp.epm.com.co/  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.1.17.31...* TCP_NODELAY set  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to epmwst04-04.corp.epm.com.co (10.1.17.31) port 443 (#1)* schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 1/3)* schannel: disabled server certificate revocation checks* schannel: verifyhost setting prevents Schannel from comparing the supplied target name with the subject names in server certificates.* schannel: sending initial handshake data: sending 189 bytes...* schannel: sent initial handshake data: sent 189 bytes* schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 2/3)* schannel: failed to receive handshake, need more data* schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 3930* schannel: encrypted data buffer: offset 3930 length 4096* schannel: received incomplete message, need more data* schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 397* schannel: encrypted data buffer: offset 4327 length 4954* schannel: sending next handshake data: sending 158 bytes...* schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 2/3)* schannel: encrypted data got 51* schannel: encrypted data buffer: offset 51 length 4954* schannel: SSL/TLS handshake complete* schannel: SSL/TLS connection with epmwst04-04.corp.epm.com.co port 443 (step 3/3)* schannel: stored credential handle in session cache&gt; GET / HTTP/1.1&gt; Host: epmwst04-04.corp.epm.com.co&gt; User-Agent: curl/7.55.1&gt; Accept: */*&gt; * schannel: client wants to read 102400 bytes* schannel: encdata_buffer resized 103424* schannel: encrypted data buffer: offset 0 length 103424* schannel: encrypted data got 1423* schannel: encrypted data buffer: offset 1423 length 103424* schannel: decrypted data length: 1394* schannel: decrypted data added: 1394* schannel: decrypted data cached: offset 1394 length 102400* schannel: encrypted data buffer: offset 0 length 103424* schannel: decrypted data buffer: offset 1394 length 102400* schannel: schannel_recv cleanup* schannel: decrypted data returned 1394* schannel: decrypted data buffer: offset 0 length 102400&lt; HTTP/1.1 403 Forbidden&lt; Content-Type: text/html&lt; Server: Microsoft-IIS/10.0&lt; X-Powered-By: ASP.NET&lt; Date: Fri, 10 Sep 2021 11:43:43 GMT&lt; Content-Length: 1233&lt; { [1233 bytes data]100  1233  100  1233    0     0   1233      0  0:00:01 --:--:--  0:00:01  5269* Connection #1 to host epmwst04-04.corp.epm.com.co left intact&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;head&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;/&gt;&lt;title&gt;403 - Forbidden: Access is denied.&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;&lt;!--body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}fieldset{padding:0 15px 10px 15px;} h1{font-size:2.4em;margin:0;color:#FFF;}h2{font-size:1.7em;margin:0;color:#CC0000;} h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} #header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:&quot;trebuchet MS&quot;, Verdana, sans-serif;color:#FFF;background-color:#555555;}#content{margin:0 0 0 2%;position:relative;}.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}--&gt;&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;header&quot;&gt;&lt;h1&gt;Server Error&lt;/h1&gt;&lt;/div&gt;&lt;div id=&quot;content&quot;&gt; &lt;div class=&quot;content-container&quot;&gt;&lt;fieldset&gt;  &lt;h2&gt;403 - Forbidden: Access is denied.&lt;/h2&gt;  &lt;h3&gt;You do not have permission to view this directory or page using the credentials that you supplied.&lt;/h3&gt; &lt;/fieldset&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+1 &gt; Content-Type: application/soap+xml; charset=utf-8
+1 &gt; SOAPAction: http://epm.com.co/aguas/hidro/contratoservicios/ILlamada/ConsultarInformacionDireccion
+1 &gt; Content-Length: 1311
+1 &gt; Host: epmwst04-04.corp.epm.com.co
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 &gt; Accept-Encoding: gzip,deflate
+&lt;soap:Envelope xmlns:soap=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:con=&quot;http://epm.com.co/aguas/hidro/contratoservicios&quot; xmlns:con1=&quot;http://epm.com.co/aguas/hidro/contratodatos&quot;&gt;
+    &lt;soap:Header/&gt;
+    &lt;soap:Body&gt;
+        &lt;con:ConsultarInformacionDireccion&gt;
+            &lt;!--Optional:--&gt;
+            &lt;con:parametros&gt;
+                &lt;!--Optional:--&gt;
+                &lt;con1:Empresa&gt;
+                    &lt;con1:IdEmpresa&gt;1&lt;/con1:IdEmpresa&gt;
+                &lt;/con1:Empresa&gt;
+                &lt;con1:Direccion&gt;CL 39 CR 90 -40&lt;/con1:Direccion&gt;
+                &lt;con1:GeometriaDireccion&gt;&lt;![CDATA[&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;SdoGeometry xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+  &lt;Point&gt;
+    &lt;X&gt;-75.6104383&lt;/X&gt;
+    &lt;Y&gt;6.25038138&lt;/Y&gt;
+    &lt;Z xsi:nil=&quot;true&quot; /&gt;
+  &lt;/Point&gt;
+  &lt;Sdo_Gtype&gt;2001&lt;/Sdo_Gtype&gt;
+  &lt;Sdo_Srid&gt;4326&lt;/Sdo_Srid&gt;
+&lt;/SdoGeometry&gt;]]&gt;&lt;/con1:GeometriaDireccion&gt;
+                &lt;!--Optional:--&gt;
+                &lt;con1:IdCiudad&gt;1037&lt;/con1:IdCiudad&gt;
+                &lt;con1:PorDescargue&gt;true&lt;/con1:PorDescargue&gt;
+                &lt;!--Optional:--&gt;
+                &lt;con1:RadioConsulta&gt;200&lt;/con1:RadioConsulta&gt;
+            &lt;/con:parametros&gt;
+        &lt;/con:ConsultarInformacionDireccion&gt;
+    &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;
+
+06:43:43.791 classpath:soap/consultas/consulta.feature:12
+When method post
+org/apache/commons/codec/binary/Base64
+classpath:soap/consultas/consulta.feature:12
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref skipped">13</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref skipped">14</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match /Envelope/Body/AddResponse ==read(&#39;expected.xml&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref skipped">15</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print &#39;response: &#39;, response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

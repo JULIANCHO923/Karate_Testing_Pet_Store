@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hidro-pruebas-automatizadas-rendimiento.iml" filepath="$PROJECT_DIR$/hidro-pruebas-automatizadas-rendimiento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pruebas-automatizadas-contrato.iml" filepath="$PROJECT_DIR$/pruebas-automatizadas-contrato.iml" />
     </modules>
   </component>
 </project>

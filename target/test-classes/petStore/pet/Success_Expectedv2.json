@@ -1,0 +1,8 @@
+{
+  "id": "#number",
+  "category": "##object? karate.match(_,{ \"id\": \"##number\", \"name\": \"##string\"}).pass",
+  "name": "#string",
+  "photoUrls": "##[]",
+  "tags": "##[]",
+  "status": "#string"
+}
