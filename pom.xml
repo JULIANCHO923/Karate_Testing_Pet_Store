@@ -11,21 +11,29 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <maven.compiler.version>3.8.1</maven.compiler.version>
-        <maven.surefire.version>2.22.2</maven.surefire.version>        
         <karate.version>1.1.0</karate.version>
-    </properties>    
+    </properties>
 
-    <dependencies>         
+    <dependencies>
+
         <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-junit5</artifactId>
             <version>${karate.version}</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
-        
+        <testResources>
+            <testResource>
+                <directory>src/test/java</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </testResource>
+        </testResources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -38,19 +46,11 @@
                     <compilerArgument>-Werror</compilerArgument>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven.surefire.version}</version>
-                <configuration>
-                    <dependenciesToScan>
-                        <dependency>co.com.epm:pruebas-automatizadas-contrato</dependency>
-                    </dependenciesToScan>
-                </configuration>
+                <version>2.22.2</version>
             </plugin>
-
-        </plugins>        
-    </build>       
-    
+        </plugins>
+    </build>
 </project>
