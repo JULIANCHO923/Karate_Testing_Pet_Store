@@ -1,13 +1,12 @@
 package petStore.pet;
 
-
 import com.intuit.karate.junit5.Karate;
 
-class GetPetRunner {
-
+class GetPetRunner
+{
     @Karate.Test
-    Karate testGetPet() {
+    Karate testGetPet()
+    {
         return Karate.run("getPet").relativeTo(getClass());
     }
-
 }
